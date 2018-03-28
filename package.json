@@ -1,0 +1,29 @@
+{
+  "name": "portfolio-c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosef/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mosef/Portfolio/issues"
+  },
+  "homepage": "https://github.com/mosef/Portfolio#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.9.0"
+  }
+}

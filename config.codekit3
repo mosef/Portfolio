@@ -9,6 +9,167 @@
 	],
 "creatorBuild": "26330",
 "files": {
+	"\/.cache\/04d2c41f513fc434f5a905aa2fe5d26d.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/04d2c41f513fc434f5a905aa2fe5d26d-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/2216822d9ea59bc74f1ef998b8892d73.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/2216822d9ea59bc74f1ef998b8892d73-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/379b1d171c478ace52fc1832a1810fb9.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/379b1d171c478ace52fc1832a1810fb9-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/485f307ef055fd7026e383c2debc8d34.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/485f307ef055fd7026e383c2debc8d34-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/7a06653b68dee979026cfb7ac65029ba.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/7a06653b68dee979026cfb7ac65029ba-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/a2092f14572891aff2c234ab93991f69.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/a2092f14572891aff2c234ab93991f69-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/d46a4948c566f5877b6ed4229605ea19.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/d46a4948c566f5877b6ed4229605ea19-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.eslintignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.eslintignore",
+		"oF": 0
+		},
+	"\/.eslintrc.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/.eslintrc-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
+	"\/dist\/css.1042ecb5-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/dist\/css.1042ecb5-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/dist\/css.1042ecb5.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/dist\/css.1042ecb5-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/dist\/css.1042ecb5.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/dist\/css.1042ecb5-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/dist\/css.1042ecb5.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/css.1042ecb5.map",
+		"oF": 0
+		},
+	"\/dist\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/index.html",
+		"oF": 0
+		},
+	"\/dist\/portfolio-c.933c7317-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/dist\/portfolio-c.933c7317-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/dist\/portfolio-c.933c7317.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/dist\/portfolio-c.933c7317-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/dist\/portfolio-c.933c7317.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/dist\/portfolio-c.933c7317-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/dist\/portfolio-c.933c7317.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/portfolio-c.933c7317.map",
+		"oF": 0
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -25,6 +186,28 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
+		},
+	"\/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "\/build\/node_modules",
+		"oF": 0
+		},
+	"\/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/README.md": {
 		"cB": 0,
@@ -43,6 +226,16 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/src\/css\/index.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/src\/css\/index-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/src\/img\/Background.png": {
 		"ft": 32768,
@@ -63,8 +256,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/src\/sass\/index.css",
-		"oF": 0,
+		"oAP": "\/src\/css\/index.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
@@ -75,9 +268,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/src\/sass\/vars.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		}
