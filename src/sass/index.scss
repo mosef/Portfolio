@@ -1,11 +1,157 @@
 @import 'vars';
 
-body {
-  font-family: $mont; 
+html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
 }
 
-header {
-  h1{
-    font-size: 2.7em;
+body {
+  font-family: $mont;
+  min-width: 320px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: minmax(100px, auto);
+  margin: 0 auto;
+
+  header {
+    grid-column: 1/1;
+    grid-row: 1/2;
+    width: 100vw;
+    height: 50vh;
+    @include mobile {
+      height: 92.7vh;
+    }
+    background-image: url('../img/Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    .intro {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-rows: minmax(100px, auto);
+      @include mobile {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 150px;
+      }
+      color: white;
+      text-align: center;
+      margin-top: 100px;
+      .text-wrap {
+        text-align: left;
+        grid-column: 4/11;
+        @include mobile {
+          grid-column: 1/1;
+          text-align: center;
+        }
+        h1, h2 {
+          font-family: Montserrat;
+          font-weight: 300;
+          font-size: 2.500em;
+          @include mobile {
+            font-size: 2em;
+          }
+        }
+      }
+      button {
+        grid-column: 6/8;
+        grid-row: 2/2;
+        @include mobile {
+          grid-column: 1/1;
+          margin: 0 auto;
+        }
+        height: 40px;
+        width: 180px;
+        border-radius: 2px;
+        color: white;
+        border: none;
+        background-color: $pinkBase;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+          0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+        margin-top: 10px;
+        transition: all 0.3s ease 0s box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1),
+          background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+          color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
+        &:hover {
+          background: $pinkLight;
+        }
+      }
+      .s-pink {
+        color: #E31B6D;
+      }
+    }
+  }
+  nav {
+    height: 50px;
+    width: 100vw;
+    background-color: #252934;
+  }
+  main {
+    grid-column: 1/13;
+    grid-row: 2/2;
+      @include mobile {
+        grid-column: 1/1;
+      }
+      ul {
+        list-style: none;
+        padding: 0px;
+      }
+      .nav-list {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: minmax(50px, auto);
+      color: white;
+      font-weight: 200;
+      a {
+        text-decoration: none;
+        color: inherit;
+        &:hover{
+          color: $pinkLight;
+        }
+      } 
+    }
+    .content-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: minmax(100px, auto);
+    }
+    .wrap1 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: minmax(100px, auto);
+      @include mobile {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .about-wrapper {
+        grid-column: 1/1;
+        text-align: center;
+        .placeholder {
+          background-color: $pinkBase;
+          height: 50px;
+          width: 50px;
+          border-radius: 50px;
+          margin: 0 auto;
+        }
+      }
+      .lang-grid {
+        grid-column: 2/2;
+        color: black;
+        @include mobile {
+          grid-column: 1/1;
+          grid-row: 2/2;
+          text-align: center;
+          .icon-list {
+            display: inline-block;
+          }
+          .l-icon {
+            display: none;
+          }
+        };
+      }
+    }
   }
 }

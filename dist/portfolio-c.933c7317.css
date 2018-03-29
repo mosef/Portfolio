@@ -339,3 +339,132 @@ template {
 [hidden] {
   display: none;
 }
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300");
+html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  min-width: 320px; }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: minmax(100px, auto);
+  margin: 0 auto; }
+  .container header {
+    grid-column: 1/1;
+    grid-row: 1/2;
+    width: 100vw;
+    height: 50vh;
+    background-image: url("Background.1c1f3c9c.png");
+    background-size: cover;
+    background-repeat: no-repeat; }
+    @media only screen and (min-width: 320px) and (max-width: 26.875em) {
+      .container header {
+        height: 92.7vh; } }
+    .container header .intro {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-rows: minmax(100px, auto);
+      color: white;
+      text-align: center;
+      margin-top: 100px; }
+      @media only screen and (min-width: 320px) and (max-width: 26.875em) {
+        .container header .intro {
+          grid-template-columns: repeat(1, 1fr);
+          margin-top: 150px; } }
+      .container header .intro .text-wrap {
+        text-align: left;
+        grid-column: 4/11; }
+        @media only screen and (min-width: 320px) and (max-width: 26.875em) {
+          .container header .intro .text-wrap {
+            grid-column: 1/1;
+            text-align: center; } }
+        .container header .intro .text-wrap h1, .container header .intro .text-wrap h2 {
+          font-family: Montserrat;
+          font-weight: 300;
+          font-size: 2.500em; }
+          @media only screen and (min-width: 320px) and (max-width: 26.875em) {
+            .container header .intro .text-wrap h1, .container header .intro .text-wrap h2 {
+              font-size: 2em; } }
+      .container header .intro button {
+        grid-column: 6/8;
+        grid-row: 2/2;
+        height: 40px;
+        width: 180px;
+        border-radius: 2px;
+        color: white;
+        border: none;
+        background-color: #E31B6D;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+        margin-top: 10px;
+        transition: all 0.3s ease 0s box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer; }
+        @media only screen and (min-width: 320px) and (max-width: 26.875em) {
+          .container header .intro button {
+            grid-column: 1/1;
+            margin: 0 auto; } }
+        .container header .intro button:hover {
+          background: #f71975; }
+      .container header .intro .s-pink {
+        color: #E31B6D; }
+  .container nav {
+    height: 50px;
+    width: 100vw;
+    background-color: #252934; }
+  .container main {
+    grid-column: 1/13;
+    grid-row: 2/2; }
+    @media only screen and (min-width: 320px) and (max-width: 26.875em) {
+      .container main {
+        grid-column: 1/1; } }
+    .container main ul {
+      list-style: none;
+      padding: 0px; }
+    .container main .nav-list {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: minmax(50px, auto);
+      color: white;
+      font-weight: 200; }
+      .container main .nav-list a {
+        text-decoration: none;
+        color: inherit; }
+        .container main .nav-list a:hover {
+          color: #f71975; }
+    .container main .content-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: minmax(100px, auto); }
+    .container main .wrap1 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: minmax(100px, auto); }
+      @media only screen and (min-width: 320px) and (max-width: 26.875em) {
+        .container main .wrap1 {
+          grid-template-columns: repeat(1, 1fr); } }
+      .container main .wrap1 .about-wrapper {
+        grid-column: 1/1;
+        text-align: center; }
+        .container main .wrap1 .about-wrapper .placeholder {
+          background-color: #E31B6D;
+          height: 50px;
+          width: 50px;
+          border-radius: 50px;
+          margin: 0 auto; }
+      .container main .wrap1 .lang-grid {
+        grid-column: 2/2;
+        color: black; }
+        @media only screen and (min-width: 320px) and (max-width: 26.875em) {
+          .container main .wrap1 .lang-grid {
+            grid-column: 1/1;
+            grid-row: 2/2;
+            text-align: center; }
+            .container main .wrap1 .lang-grid .icon-list {
+              display: inline-block; }
+            .container main .wrap1 .lang-grid .l-icon {
+              display: none; } }

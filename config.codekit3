@@ -17,10 +17,50 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/08499d8cf81bf7081c1b04d5ab56fd20.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/08499d8cf81bf7081c1b04d5ab56fd20-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/14c6080e7d11528b7069c663ae8ff5d0.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/14c6080e7d11528b7069c663ae8ff5d0-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/21b1f8f40f803a2f5c197894fbc2b9f7.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/21b1f8f40f803a2f5c197894fbc2b9f7-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/2216822d9ea59bc74f1ef998b8892d73.json": {
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/2216822d9ea59bc74f1ef998b8892d73-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/2b57df5e2446dee1493c52212a803944.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/2b57df5e2446dee1493c52212a803944-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/2f4361d86ed800f8c25a818aa80b60cc.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/2f4361d86ed800f8c25a818aa80b60cc-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -41,10 +81,50 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/5a0f501646e29c010440a1559cb66047.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/5a0f501646e29c010440a1559cb66047-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/5fb45e5dc52a2ec5532000258b41934f.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/5fb45e5dc52a2ec5532000258b41934f-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/7a06653b68dee979026cfb7ac65029ba.json": {
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/7a06653b68dee979026cfb7ac65029ba-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/7d5ce992fcf424b053bbbf4a8cf31267.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/7d5ce992fcf424b053bbbf4a8cf31267-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/807d2364a7c3c6f198ac5daeef76a7b8.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/807d2364a7c3c6f198ac5daeef76a7b8-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/a1964ed4a9d6bb2691e726f1a6a22948.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/a1964ed4a9d6bb2691e726f1a6a22948-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -57,10 +137,82 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/a67a4caa303b2a4897adca766a446dff.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/a67a4caa303b2a4897adca766a446dff-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/a8edfd3cea3b7014364edd2fe8bc8926.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/a8edfd3cea3b7014364edd2fe8bc8926-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/a924ec2c9420f523f0b375c812d599d4.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/a924ec2c9420f523f0b375c812d599d4-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/c593c58b270ad40fbe1a635642bc7b93.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/c593c58b270ad40fbe1a635642bc7b93-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/cbd4b74dd17f0c684d1c24bbe4ecdb4c.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/cbd4b74dd17f0c684d1c24bbe4ecdb4c-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/cc8cc06c80a1f72b3a49d871c26af469.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/cc8cc06c80a1f72b3a49d871c26af469-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/ccae2eb754277bde04e513e8296aeeb7.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/ccae2eb754277bde04e513e8296aeeb7-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/d46a4948c566f5877b6ed4229605ea19.json": {
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/d46a4948c566f5877b6ed4229605ea19-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/e0e89c61efae6a0f1cbd10082fa26309.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/e0e89c61efae6a0f1cbd10082fa26309-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/ef230fb45bc8117a488daf8183f91a9a.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/ef230fb45bc8117a488daf8183f91a9a-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -88,6 +240,17 @@
 		"oA": 0,
 		"oAP": "\/.gitignore",
 		"oF": 0
+		},
+	"\/dist\/Background.1c1f3c9c.png": {
+		"ft": 32768,
+		"iS": 761227,
+		"oA": 0,
+		"oAP": "\/dist\/Background.1c1f3c9c.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/dist\/css.1042ecb5-min.css": {
 		"aP": 1,
@@ -126,12 +289,67 @@
 		"oAP": "\/dist\/css.1042ecb5.map",
 		"oF": 0
 		},
+	"\/dist\/css.93ebbcd3.png": {
+		"ft": 32768,
+		"iS": 1660,
+		"oA": 0,
+		"oAP": "\/dist\/css.93ebbcd3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/git.261e5d55.png": {
+		"ft": 32768,
+		"iS": 1468,
+		"oA": 0,
+		"oAP": "\/dist\/git.261e5d55.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/html5.06146883.png": {
+		"ft": 32768,
+		"iS": 1632,
+		"oA": 0,
+		"oAP": "\/dist\/html5.06146883.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/dist\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/dist\/index.html",
 		"oF": 0
+		},
+	"\/dist\/jquery.eed24ebb.png": {
+		"ft": 32768,
+		"iS": 2415,
+		"oA": 0,
+		"oAP": "\/dist\/jquery.eed24ebb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/js.c469f5f2.png": {
+		"ft": 32768,
+		"iS": 1292,
+		"oA": 0,
+		"oAP": "\/dist\/js.c469f5f2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/dist\/portfolio-c.933c7317-min.css": {
 		"aP": 1,
@@ -169,6 +387,39 @@
 		"oA": 0,
 		"oAP": "\/dist\/portfolio-c.933c7317.map",
 		"oF": 0
+		},
+	"\/dist\/react.b8c1a880.png": {
+		"ft": 32768,
+		"iS": 3738,
+		"oA": 0,
+		"oAP": "\/dist\/react.b8c1a880.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/redux.98d1cf33.png": {
+		"ft": 32768,
+		"iS": 2798,
+		"oA": 0,
+		"oAP": "\/dist\/redux.98d1cf33.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/sass.41125701.png": {
+		"ft": 32768,
+		"iS": 2682,
+		"oA": 0,
+		"oAP": "\/dist\/sass.41125701.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/index.html": {
 		"cB": 0,
@@ -245,6 +496,94 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/css.png": {
+		"ft": 32768,
+		"iS": 1660,
+		"oA": 0,
+		"oAP": "\/src\/img\/css.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/git.png": {
+		"ft": 32768,
+		"iS": 1468,
+		"oA": 0,
+		"oAP": "\/src\/img\/git.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/html5.png": {
+		"ft": 32768,
+		"iS": 1632,
+		"oA": 0,
+		"oAP": "\/src\/img\/html5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/jquery.png": {
+		"ft": 32768,
+		"iS": 2415,
+		"oA": 0,
+		"oAP": "\/src\/img\/jquery.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/js.png": {
+		"ft": 32768,
+		"iS": 1292,
+		"oA": 0,
+		"oAP": "\/src\/img\/js.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/react.png": {
+		"ft": 32768,
+		"iS": 3738,
+		"oA": 0,
+		"oAP": "\/src\/img\/react.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/redux.png": {
+		"ft": 32768,
+		"iS": 2798,
+		"oA": 0,
+		"oAP": "\/src\/img\/redux.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/sass.png": {
+		"ft": 32768,
+		"iS": 2682,
+		"oA": 0,
+		"oAP": "\/src\/img\/sass.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
