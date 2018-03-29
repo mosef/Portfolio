@@ -121,6 +121,22 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/4492918433d47fcc3eacb5cad1c4e37d.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/4492918433d47fcc3eacb5cad1c4e37d-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/45ca509645d4f6f9e99f37ca893a3876.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/45ca509645d4f6f9e99f37ca893a3876-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/485f307ef055fd7026e383c2debc8d34.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -141,6 +157,14 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/4b6a53c683ed95ae8fad609c29a0aa35-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/4bd187c45a01ab6c6e2201c2ab5f35f0.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/4bd187c45a01ab6c6e2201c2ab5f35f0-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -277,6 +301,38 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/a924ec2c9420f523f0b375c812d599d4-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/ada4f961999313229090307015378da8.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/ada4f961999313229090307015378da8-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/b531b71b73a40e93839a27c80bf1f99d.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/b531b71b73a40e93839a27c80bf1f99d-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/c0c0d75ae5323da6cbd4108552e89e48.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/c0c0d75ae5323da6cbd4108552e89e48-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/c1eddd56507e6c02c5ecfa60231992fe.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/c1eddd56507e6c02c5ecfa60231992fe-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -450,6 +506,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/src\/img\/apolloGraphql.png": {
+		"ft": 32768,
+		"iS": 4927,
+		"oA": 0,
+		"oAP": "\/src\/img\/apolloGraphql.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/img\/Background.png": {
 		"ft": 32768,
 		"iS": 1945862,
@@ -516,6 +583,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/img\/graphql.png": {
+		"ft": 32768,
+		"iS": 5408,
+		"oA": 0,
+		"oAP": "\/src\/img\/graphql.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/img\/html5.png": {
 		"ft": 32768,
 		"iS": 1632,
@@ -560,6 +638,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/img\/meteor-plain.png": {
+		"ft": 32768,
+		"iS": 7465,
+		"oA": 0,
+		"oAP": "\/src\/img\/meteor-plain.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/img\/minion.png": {
 		"ft": 32768,
 		"iS": 105874,
@@ -601,6 +690,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/parcellogo.png": {
+		"ft": 32768,
+		"iS": 3996,
+		"oA": 0,
+		"oAP": "\/src\/img\/parcellogo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -681,12 +781,44 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/img\/vuejs-original.png": {
+		"ft": 32768,
+		"iS": 4617,
+		"oA": 0,
+		"oAP": "\/src\/img\/vuejs-original.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/webpack-original.png": {
+		"ft": 32768,
+		"iS": 5198,
+		"oA": 0,
+		"oAP": "\/src\/img\/webpack-original.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/js\/images.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/src\/js\/images-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/src\/js\/lab.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/src\/js\/lab-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1

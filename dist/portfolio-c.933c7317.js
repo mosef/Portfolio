@@ -77,7 +77,7 @@ parcelRequire = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({27:[function(require,module,exports) {
+})({25:[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {};
@@ -264,7 +264,7 @@ process.chdir = function (dir) {
 process.umask = function () {
     return 0;
 };
-},{}],23:[function(require,module,exports) {
+},{}],22:[function(require,module,exports) {
 var global = (1,eval)("this");
 var process = require("process");
 /*!
@@ -10632,7 +10632,7 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-},{"process":27}],32:[function(require,module,exports) {
+},{"process":25}],30:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -10662,7 +10662,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],26:[function(require,module,exports) {
+},{}],24:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -10693,31 +10693,43 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":32}],24:[function(require,module,exports) {
+},{"./bundle-url":30}],23:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":26}],20:[function(require,module,exports) {
+},{"_css_loader":24}],20:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../img/Background.png":[["Background.1c1f3c9c.png",33],33],"_css_loader":26}],29:[function(require,module,exports) {
+},{"./../img/Background.png":[["Background.1c1f3c9c.png",26],26],"_css_loader":24}],31:[function(require,module,exports) {
 module.exports="/binge.6f76e72d.png";
-},{}],30:[function(require,module,exports) {
+},{}],32:[function(require,module,exports) {
 module.exports="/minion.db220038.png";
-},{}],31:[function(require,module,exports) {
+},{}],33:[function(require,module,exports) {
 module.exports="/typequick.da391f04.png";
-},{}],28:[function(require,module,exports) {
+},{}],34:[function(require,module,exports) {
+module.exports="/webpack-original.8dfc5d7f.png";
+},{}],35:[function(require,module,exports) {
+module.exports="/vuejs-original.54ef5966.png";
+},{}],36:[function(require,module,exports) {
+module.exports="/graphql.c6ccdba4.png";
+},{}],37:[function(require,module,exports) {
+module.exports="/meteor-plain.c34e415e.png";
+},{}],38:[function(require,module,exports) {
+module.exports="/apolloGraphql.36f88995.png";
+},{}],39:[function(require,module,exports) {
+module.exports="/parcellogo.06d5179f.png";
+},{}],29:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.type = exports.minion = exports.binge = undefined;
+exports.parcelIcon = exports.apolloIcon = exports.meteorIcon = exports.graphqIcon = exports.vueIcon = exports.webpackIcon = exports.typeQuickIcon = exports.minionManagerIcon = exports.bingeOnIcon = undefined;
 
 var _binge = require('../img/binge.png');
 
@@ -10731,14 +10743,42 @@ var _typequick = require('../img/typequick.png');
 
 var _typequick2 = _interopRequireDefault(_typequick);
 
+var _webpackOriginal = require('../img/webpack-original.png');
+
+var _webpackOriginal2 = _interopRequireDefault(_webpackOriginal);
+
+var _vuejsOriginal = require('../img/vuejs-original.png');
+
+var _vuejsOriginal2 = _interopRequireDefault(_vuejsOriginal);
+
+var _graphql = require('../img/graphql.png');
+
+var _graphql2 = _interopRequireDefault(_graphql);
+
+var _meteorPlain = require('../img/meteor-plain.png');
+
+var _meteorPlain2 = _interopRequireDefault(_meteorPlain);
+
+var _apolloGraphql = require('../img/apolloGraphql.png');
+
+var _apolloGraphql2 = _interopRequireDefault(_apolloGraphql);
+
+var _parcellogo = require('../img/parcellogo.png');
+
+var _parcellogo2 = _interopRequireDefault(_parcellogo);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var binge = exports.binge = _binge2.default;
-var minion = exports.minion = _minion2.default;
-var type = exports.type = _typequick2.default;
-},{"../img/binge.png":29,"../img/minion.png":30,"../img/typequick.png":31}],3:[function(require,module,exports) {
-module.exports="/react.b8c1a880.png";
-},{}],38:[function(require,module,exports) {
+var bingeOnIcon = exports.bingeOnIcon = _binge2.default;
+var minionManagerIcon = exports.minionManagerIcon = _minion2.default;
+var typeQuickIcon = exports.typeQuickIcon = _typequick2.default;
+var webpackIcon = exports.webpackIcon = _webpackOriginal2.default;
+var vueIcon = exports.vueIcon = _vuejsOriginal2.default;
+var graphqIcon = exports.graphqIcon = _graphql2.default;
+var meteorIcon = exports.meteorIcon = _meteorPlain2.default;
+var apolloIcon = exports.apolloIcon = _apolloGraphql2.default;
+var parcelIcon = exports.parcelIcon = _parcellogo2.default;
+},{"../img/binge.png":31,"../img/minion.png":32,"../img/typequick.png":33,"../img/webpack-original.png":34,"../img/vuejs-original.png":35,"../img/graphql.png":36,"../img/meteor-plain.png":37,"../img/apolloGraphql.png":38,"../img/parcellogo.png":39}],27:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10749,10 +10789,22 @@ exports.default = loadProjects;
 var _images = require('./images');
 
 function loadProjects() {
-  var url = require('../img/react.png');
-  $('.content').append('\n    <div class="wrap2">\n      <h1>Projects</h1>\n      <div class="project-1">\n        <h3>Binge On</h3>\n        <a href="https://mosef.github.io/BingeOn/" target="_blank">\n          <img src=' + _images.binge + ' alt="" class="p-icon" />\n        </a>\n        <p>React</p>\n      </div>\n      <div class="project-2">\n        <h3>Minion Manager</h3>\n        <a href="https://sheltered-coast-97878.herokuapp.com/" target="_blank">\n          <img src=' + _images.minion + ' alt="" class="p-icon" />\n        </a>\n        <p>React</p>\n      </div>\n      <div class="project-3">\n      <h3>TypeQuick</h3>\n        <a href="http://frosty-wright-cc1a68.netlify.com/" target="_blank">\n          <img src=' + _images.type + ' alt="" class="p-icon" />\n        </a>\n        <p>React</p>\n      </div>\n    </div>\n  ');
+  $('.content').append('\n    <div class="wrap2">\n      <h1>Projects</h1>\n      <div class="project-1">\n        <h3>Binge On</h3>\n        <a href="https://mosef.github.io/BingeOn/" target="_blank">\n          <img src=' + _images.bingeOnIcon + ' alt="" class="p-icon" />\n        </a>\n        <p>React</p>\n      </div>\n      <div class="project-2">\n        <h3>Minion Manager</h3>\n        <a href="https://sheltered-coast-97878.herokuapp.com/" target="_blank">\n          <img src=' + _images.minionManagerIcon + ' alt="" class="p-icon" />\n        </a>\n        <p>React</p>\n      </div>\n      <div class="project-3">\n      <h3>TypeQuick</h3>\n        <a href="http://frosty-wright-cc1a68.netlify.com/" target="_blank">\n          <img src=' + _images.typeQuickIcon + ' alt="" class="p-icon" />\n        </a>\n        <p>React</p>\n      </div>\n    </div>\n  ');
 }
-},{"./images":28,"../img/react.png":3}],37:[function(require,module,exports) {
+},{"./images":29}],28:[function(require,module,exports) {
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = loadLab;
+
+var _images = require('./images');
+
+function loadLab() {
+  $('.content').append('\n    <div class="wrap2">\n      <h1>Projects</h1>\n      <div class="project-1">\n        <h3>Binge On</h3>\n        <a href="https://mosef.github.io/BingeOn/" target="_blank">\n          <img src=' + _images.meteorIcon + ' alt="" class="p-icon" />\n        </a>\n        <p>React</p>\n      </div>\n    </div>\n  ');
+}
+},{"./images":29}],21:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10763,6 +10815,10 @@ exports.menuToggle = menuToggle;
 var _projects = require('./projects');
 
 var _projects2 = _interopRequireDefault(_projects);
+
+var _lab = require('./lab');
+
+var _lab2 = _interopRequireDefault(_lab);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10780,9 +10836,15 @@ function menuToggle() {
       $('.wrap2').remove();
       (0, _projects2.default)();
     }
+    if (e.target.id === 'lab') {
+      $('.wrap1').hide();
+      $('.wrap2').remove();
+      $('.wrap3').remove();
+      (0, _lab2.default)();
+    }
   });
 }
-},{"./projects":38}],2:[function(require,module,exports) {
+},{"./projects":27,"./lab":28}],2:[function(require,module,exports) {
 'use strict';
 
 var _jquery = require('jquery');
@@ -10800,7 +10862,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 (0, _jquery2.default)(function () {
   (0, _nav.menuToggle)();
 });
-},{"jquery":23,"normalize.css":24,"./src/css/index.css":20,"./src/js/nav":37}],36:[function(require,module,exports) {
+},{"jquery":22,"normalize.css":23,"./src/css/index.css":20,"./src/js/nav":21}],44:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -10830,7 +10892,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '59241' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '59667' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -10969,5 +11031,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[36,2])
+},{}]},{},[44,2])
 //# sourceMappingURL=/portfolio-c.933c7317.map
