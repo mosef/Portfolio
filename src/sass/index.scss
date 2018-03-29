@@ -106,6 +106,11 @@ body {
       grid-template-rows: minmax(50px, auto);
       color: white;
       font-weight: 200;
+      margin: 0px;
+      text-align: center;
+      li {
+        padding-top: 15px;
+      }
       a {
         text-decoration: none;
         color: inherit;
@@ -127,7 +132,10 @@ body {
         grid-template-columns: repeat(1, 1fr);
       }
       .about-wrapper {
-        grid-column: 1/1;
+        @include mobile {
+          grid-column: 1/1;
+          grid-row: 1/2;
+        }
         text-align: center;
         .placeholder {
           background-color: $pinkBase;
@@ -138,19 +146,36 @@ body {
         }
       }
       .lang-grid {
-        grid-column: 2/2;
         color: black;
         @include mobile {
           grid-column: 1/1;
-          grid-row: 2/2;
-          text-align: center;
-          .icon-list {
+        }
+        .icon-list {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: minmax(100px, auto);
+          margin: 0 auto;
+          li {
             display: inline-block;
+            text-align: center;
+            @include mobile {
+              padding: 20px;
+              .l-icon {
+                width: 30%;
+              }
+            }
           }
-          .l-icon {
-            display: none;
+          .front-end {
+            grid-column: 1/1;
+            grid-row: 1/2;
+            text-align: center;
           }
-        };
+          .back-end {
+            grid-column: 1/1;
+            grid-row: 2/2;
+            text-align: center;
+          }
+        }
       }
     }
   }

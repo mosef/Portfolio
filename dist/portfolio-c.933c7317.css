@@ -430,7 +430,11 @@ body {
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: minmax(50px, auto);
       color: white;
-      font-weight: 200; }
+      font-weight: 200;
+      margin: 0px;
+      text-align: center; }
+      .container main .nav-list li {
+        padding-top: 15px; }
       .container main .nav-list a {
         text-decoration: none;
         color: inherit; }
@@ -448,8 +452,11 @@ body {
         .container main .wrap1 {
           grid-template-columns: repeat(1, 1fr); } }
       .container main .wrap1 .about-wrapper {
-        grid-column: 1/1;
         text-align: center; }
+        @media only screen and (min-width: 320px) and (max-width: 26.875em) {
+          .container main .wrap1 .about-wrapper {
+            grid-column: 1/1;
+            grid-row: 1/2; } }
         .container main .wrap1 .about-wrapper .placeholder {
           background-color: #E31B6D;
           height: 50px;
@@ -457,14 +464,28 @@ body {
           border-radius: 50px;
           margin: 0 auto; }
       .container main .wrap1 .lang-grid {
-        grid-column: 2/2;
         color: black; }
         @media only screen and (min-width: 320px) and (max-width: 26.875em) {
           .container main .wrap1 .lang-grid {
+            grid-column: 1/1; } }
+        .container main .wrap1 .lang-grid .icon-list {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: minmax(100px, auto);
+          margin: 0 auto; }
+          .container main .wrap1 .lang-grid .icon-list li {
+            display: inline-block;
+            text-align: center; }
+            @media only screen and (min-width: 320px) and (max-width: 26.875em) {
+              .container main .wrap1 .lang-grid .icon-list li {
+                padding: 20px; }
+                .container main .wrap1 .lang-grid .icon-list li .l-icon {
+                  width: 30%; } }
+          .container main .wrap1 .lang-grid .icon-list .front-end {
+            grid-column: 1/1;
+            grid-row: 1/2;
+            text-align: center; }
+          .container main .wrap1 .lang-grid .icon-list .back-end {
             grid-column: 1/1;
             grid-row: 2/2;
             text-align: center; }
-            .container main .wrap1 .lang-grid .icon-list {
-              display: inline-block; }
-            .container main .wrap1 .lang-grid .l-icon {
-              display: none; } }
