@@ -25,6 +25,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/0f505d1ff4cc942326a0bc0df8e02b7e.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/0f505d1ff4cc942326a0bc0df8e02b7e-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/14c6080e7d11528b7069c663ae8ff5d0.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -41,6 +49,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/218bc54b92be1944a203def7e7b1fff5.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/218bc54b92be1944a203def7e7b1fff5-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/21b1f8f40f803a2f5c197894fbc2b9f7.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -53,6 +69,14 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/2216822d9ea59bc74f1ef998b8892d73-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/22e4b0e4476e91836644efaede2555cf.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/22e4b0e4476e91836644efaede2555cf-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -113,6 +137,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/4b6a53c683ed95ae8fad609c29a0aa35.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/4b6a53c683ed95ae8fad609c29a0aa35-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/5a0f501646e29c010440a1559cb66047.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -125,6 +157,14 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/5fb45e5dc52a2ec5532000258b41934f-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/6da26725637e19330751181eb2c75f5e.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/6da26725637e19330751181eb2c75f5e-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -153,10 +193,34 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/80bd4ce21ecde0dceed50605d761f7f9.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/80bd4ce21ecde0dceed50605d761f7f9-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/8192d83738af0715e95d8ce0f3e86a14.json": {
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/8192d83738af0715e95d8ce0f3e86a14-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/83d5d79e11570ee68ab8a71d37f59777.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/83d5d79e11570ee68ab8a71d37f59777-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/915320c786b836719bef83e58d7d7e86.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/915320c786b836719bef83e58d7d7e86-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -173,6 +237,14 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/a2092f14572891aff2c234ab93991f69-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/a357f5fbda97a93218f23ef5937cd5e5.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/a357f5fbda97a93218f23ef5937cd5e5-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -233,6 +305,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/d2fc298fb4e937864414c81f84b2a350.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/d2fc298fb4e937864414c81f84b2a350-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/d46a4948c566f5877b6ed4229605ea19.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -245,6 +325,14 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/e0e89c61efae6a0f1cbd10082fa26309-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/eeadcb9d226b23c17c7b08b4b2adf4d3.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/eeadcb9d226b23c17c7b08b4b2adf4d3-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -281,240 +369,11 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/dist\/Background.1c1f3c9c.png": {
-		"ft": 32768,
-		"iS": 761227,
-		"oA": 0,
-		"oAP": "\/dist\/Background.1c1f3c9c.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/css.1042ecb5-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/dist\/css.1042ecb5-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/dist\/css.1042ecb5.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/dist\/css.1042ecb5-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/dist\/css.1042ecb5.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
+	"\/dist": {
+		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/dist\/css.1042ecb5-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/dist\/css.1042ecb5.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/dist\/css.1042ecb5.map",
+		"oAP": "\/build\/dist",
 		"oF": 0
-		},
-	"\/dist\/css.93ebbcd3.png": {
-		"ft": 32768,
-		"iS": 1660,
-		"oA": 0,
-		"oAP": "\/dist\/css.93ebbcd3.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/express-original.ced93f1f.png": {
-		"ft": 32768,
-		"iS": 2120,
-		"oA": 0,
-		"oAP": "\/dist\/express-original.ced93f1f.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/git.261e5d55.png": {
-		"ft": 32768,
-		"iS": 1468,
-		"oA": 0,
-		"oAP": "\/dist\/git.261e5d55.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/html5.06146883.png": {
-		"ft": 32768,
-		"iS": 1632,
-		"oA": 0,
-		"oAP": "\/dist\/html5.06146883.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/dist\/index.html",
-		"oF": 0
-		},
-	"\/dist\/jquery.eed24ebb.png": {
-		"ft": 32768,
-		"iS": 2415,
-		"oA": 0,
-		"oAP": "\/dist\/jquery.eed24ebb.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/js.c469f5f2.png": {
-		"ft": 32768,
-		"iS": 1292,
-		"oA": 0,
-		"oAP": "\/dist\/js.c469f5f2.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/mocha-plain.a0a956c1.png": {
-		"ft": 32768,
-		"iS": 2506,
-		"oA": 0,
-		"oAP": "\/dist\/mocha-plain.a0a956c1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/mongodb-plain.c1ef927c.png": {
-		"ft": 32768,
-		"iS": 1064,
-		"oA": 0,
-		"oAP": "\/dist\/mongodb-plain.c1ef927c.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/nodejs-icon.3d165122.png": {
-		"ft": 32768,
-		"iS": 2269,
-		"oA": 0,
-		"oAP": "\/dist\/nodejs-icon.3d165122.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/portfolio-c.933c7317-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/dist\/portfolio-c.933c7317-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/dist\/portfolio-c.933c7317.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/dist\/portfolio-c.933c7317-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/dist\/portfolio-c.933c7317.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/dist\/portfolio-c.933c7317-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/dist\/portfolio-c.933c7317.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/dist\/portfolio-c.933c7317.map",
-		"oF": 0
-		},
-	"\/dist\/react.b8c1a880.png": {
-		"ft": 32768,
-		"iS": 3738,
-		"oA": 0,
-		"oAP": "\/dist\/react.b8c1a880.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/redux.98d1cf33.png": {
-		"ft": 32768,
-		"iS": 2798,
-		"oA": 0,
-		"oAP": "\/dist\/redux.98d1cf33.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/sass.41125701.png": {
-		"ft": 32768,
-		"iS": 2682,
-		"oA": 0,
-		"oAP": "\/dist\/sass.41125701.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/dist\/travisci.c4bc0a02.png": {
-		"ft": 32768,
-		"iS": 3786,
-		"oA": 0,
-		"oAP": "\/dist\/travisci.c4bc0a02.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
 		},
 	"\/index.html": {
 		"cB": 0,
@@ -591,6 +450,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/binge.png": {
+		"ft": 32768,
+		"iS": 33298,
+		"oA": 0,
+		"oAP": "\/src\/img\/binge.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -679,6 +549,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/minion.png": {
+		"ft": 32768,
+		"iS": 105874,
+		"oA": 0,
+		"oAP": "\/src\/img\/minion.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -780,6 +661,37 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/src\/img\/typequick.png": {
+		"ft": 32768,
+		"iS": 106279,
+		"oA": 0,
+		"oAP": "\/src\/img\/typequick.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/js\/images.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/src\/js\/images-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/src\/js\/projects.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/src\/js\/projects-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
 		},
 	"\/src\/sass\/index.scss": {
 		"aP": 0,
@@ -2797,7 +2709,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/.meteor, \/server",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/.meteor, \/server, \/dist",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",

@@ -1,21 +1,13 @@
 module.exports = {
-    "parser": "babel-eslint",
     "env": {
         "browser": true,
-        "es6": true
+        "es6": true,
+        "jquery": true,
     },
     "settings": {
-          "ecmascript": 6,
+          "ecmascript": 7,
     },
-    "parserOptions": {
-        "ecmaVersion": 2017,
-        "ecmaFeatures": {
-            "experimentalObjectRestSpread": true,
-            "experimentalDecorators": true,
-        },
-        "sourceType": "module"
-    },
-    "extends": "airbnb",
+    "extends": "airbnb-base",
     "rules": {
       "function-paren-newline": 0,
     }
