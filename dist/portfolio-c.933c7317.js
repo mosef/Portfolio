@@ -77,7 +77,7 @@ parcelRequire = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({25:[function(require,module,exports) {
+})({26:[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {};
@@ -264,7 +264,7 @@ process.chdir = function (dir) {
 process.umask = function () {
     return 0;
 };
-},{}],22:[function(require,module,exports) {
+},{}],23:[function(require,module,exports) {
 var global = (1,eval)("this");
 var process = require("process");
 /*!
@@ -10632,7 +10632,7 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-},{"process":25}],30:[function(require,module,exports) {
+},{"process":26}],30:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -10693,7 +10693,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":30}],23:[function(require,module,exports) {
+},{"./bundle-url":30}],22:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
@@ -10705,7 +10705,7 @@ module.exports = reloadCSS;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../img/Background.png":[["Background.1c1f3c9c.png",26],26],"_css_loader":24}],31:[function(require,module,exports) {
+},{"./../img/Background.png":[["Background.1c1f3c9c.png",25],25],"_css_loader":24}],31:[function(require,module,exports) {
 module.exports="/binge.6f76e72d.png";
 },{}],32:[function(require,module,exports) {
 module.exports="/minion.db220038.png";
@@ -10789,7 +10789,7 @@ exports.default = loadProjects;
 var _images = require('./images');
 
 function loadProjects() {
-  $('.content').append('\n    <div class="wrap2">\n      <h1>Projects</h1>\n      <div class="project-1">\n        <h3>Binge On</h3>\n        <a href="https://mosef.github.io/BingeOn/" target="_blank">\n          <img src=' + _images.bingeOnIcon + ' alt="" class="p-icon" />\n        </a>\n        <p>React</p>\n      </div>\n      <div class="project-2">\n        <h3>Minion Manager</h3>\n        <a href="https://sheltered-coast-97878.herokuapp.com/" target="_blank">\n          <img src=' + _images.minionManagerIcon + ' alt="" class="p-icon" />\n        </a>\n        <p>React</p>\n      </div>\n      <div class="project-3">\n      <h3>TypeQuick</h3>\n        <a href="http://frosty-wright-cc1a68.netlify.com/" target="_blank">\n          <img src=' + _images.typeQuickIcon + ' alt="" class="p-icon" />\n        </a>\n        <p>React</p>\n      </div>\n    </div>\n  ');
+  $('.content').append('\n    <div class="wrap two">\n      <h1>Projects</h1>\n      <div class="project-1">\n        <h3>Binge On</h3>\n        <a href="https://mosef.github.io/BingeOn/" target="_blank">\n          <img src=' + _images.bingeOnIcon + ' alt="" class="p-icon" />\n        </a>\n        <p>React</p>\n      </div>\n      <div class="project-2">\n        <h3>Minion Manager</h3>\n        <a href="https://sheltered-coast-97878.herokuapp.com/" target="_blank">\n          <img src=' + _images.minionManagerIcon + ' alt="" class="p-icon" />\n        </a>\n        <p>React</p>\n      </div>\n      <div class="project-3">\n      <h3>TypeQuick</h3>\n        <a href="http://frosty-wright-cc1a68.netlify.com/" target="_blank">\n          <img src=' + _images.typeQuickIcon + ' alt="" class="p-icon" />\n        </a>\n        <p>React</p>\n      </div>\n    </div>\n  ');
 }
 },{"./images":29}],28:[function(require,module,exports) {
 'use strict';
@@ -10802,15 +10802,17 @@ exports.default = loadLab;
 var _images = require('./images');
 
 function loadLab() {
-  $('.content').append('\n    <div class="wrap2">\n      <h1>Projects</h1>\n      <div class="project-1">\n        <h3>Binge On</h3>\n        <a href="https://mosef.github.io/BingeOn/" target="_blank">\n          <img src=' + _images.meteorIcon + ' alt="" class="p-icon" />\n        </a>\n        <p>React</p>\n      </div>\n    </div>\n  ');
+  $('.content').append('\n    <div class="wrap three">\n      <h1>Projects</h1>\n      <div class="project-1">\n        <h3>Binge On</h3>\n        <a href="https://mosef.github.io/BingeOn/" target="_blank">\n          <img src=' + _images.meteorIcon + ' alt="" class="p-icon" />\n        </a>\n        <p>React</p>\n      </div>\n    </div>\n  ');
 }
-},{"./images":29}],21:[function(require,module,exports) {
+},{"./images":29}],62:[function(require,module,exports) {
+
+},{}],21:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.menuToggle = menuToggle;
+exports.default = menuToggle;
 
 var _projects = require('./projects');
 
@@ -10820,31 +10822,36 @@ var _lab = require('./lab');
 
 var _lab2 = _interopRequireDefault(_lab);
 
+var _contact = require('./contact');
+
+var _contact2 = _interopRequireDefault(_contact);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function menuToggle() {
   $('.nav-list').on('click', '#about, #projects, #lab, #contact', function (e) {
     e.preventDefault();
-    console.log(e.target.id);
     if (e.target.id === 'about') {
-      $(".wrap2, .wrap3, .wrap4").remove();
-      $('.wrap1').show();
+      $(".wrap").remove();
+      $('.init-wrap').show();
     } else {
-      $('.wrap1').hide();
+      $('.init-wrap').hide();
     }
     if (e.target.id === 'projects') {
-      $('.wrap2').remove();
+      $('.wrap').remove();
       (0, _projects2.default)();
     }
     if (e.target.id === 'lab') {
-      $('.wrap1').hide();
-      $('.wrap2').remove();
-      $('.wrap3').remove();
+      $('.wrap').remove();
       (0, _lab2.default)();
+    }
+    if (e.target.id === 'contact') {
+      $('.wrap').remove();
+      (0, _contact2.default)();
     }
   });
 }
-},{"./projects":27,"./lab":28}],2:[function(require,module,exports) {
+},{"./projects":27,"./lab":28,"./contact":62}],2:[function(require,module,exports) {
 'use strict';
 
 var _jquery = require('jquery');
@@ -10857,12 +10864,14 @@ require('./src/css/index.css');
 
 var _nav = require('./src/js/nav');
 
+var _nav2 = _interopRequireDefault(_nav);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _jquery2.default)(function () {
-  (0, _nav.menuToggle)();
+  (0, _nav2.default)();
 });
-},{"jquery":22,"normalize.css":23,"./src/css/index.css":20,"./src/js/nav":21}],44:[function(require,module,exports) {
+},{"jquery":23,"normalize.css":22,"./src/css/index.css":20,"./src/js/nav":21}],61:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -10892,7 +10901,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '59667' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '59730' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -11031,5 +11040,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[44,2])
+},{}]},{},[61,2])
 //# sourceMappingURL=/portfolio-c.933c7317.map

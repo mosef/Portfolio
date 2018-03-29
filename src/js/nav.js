@@ -1,26 +1,27 @@
 import loadProjects from './projects';
 import loadLab from './lab';
+import loadContact from './contact';
 
-export function menuToggle() {
+export default function menuToggle() {
   $('.nav-list').on('click', '#about, #projects, #lab, #contact', (e) => {
     e.preventDefault();
-    console.log(e.target.id);
     if (e.target.id === 'about') {
-      $(".wrap2, .wrap3, .wrap4").remove();
-      $('.wrap1').show();
+      $(".wrap").remove();
+      $('.init-wrap').show();
     } else{
-      $('.wrap1').hide();
+      $('.init-wrap').hide();
     }
     if (e.target.id === 'projects') {
-      $('.wrap2').remove();
+      $('.wrap').remove();
       loadProjects();
     }
     if (e.target.id === 'lab') {
-      $('.wrap1').hide();
-      $('.wrap2').remove();
-      $('.wrap3').remove();
+      $('.wrap').remove();
       loadLab();
+    }
+    if (e.target.id === 'contact') {
+      $('.wrap').remove();
+      loadContact();
     }
   });
 }
-

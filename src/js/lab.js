@@ -8,7 +8,7 @@ import {
 
 export default function loadLab() {
   $('.content').append(`
-    <div class="wrap2">
+    <div class="wrap three">
       <h1>Projects</h1>
       <div class="project-1">
         <h3>Binge On</h3>

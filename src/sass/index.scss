@@ -125,7 +125,7 @@ body {
       grid-template-rows: minmax(100px, auto);
     }
     // ABOUT SECTION
-    .wrap1 {
+    .init-wrap {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: minmax(100px, auto);
@@ -204,7 +204,7 @@ body {
       }
     }
     // PROJECTS SECTION
-    .wrap2 {
+    .wrap.two {
       h1 {
         font-weight: 300;
       }

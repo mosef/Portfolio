@@ -1,7 +1,7 @@
 import { bingeOnIcon, minionManagerIcon, typeQuickIcon } from './images';
 export default function loadProjects() {
   $('.content').append(`
-    <div class="wrap2">
+    <div class="wrap two">
       <h1>Projects</h1>
       <div class="project-1">
         <h3>Binge On</h3>
