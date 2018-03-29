@@ -165,3 +165,10 @@ body {
               .container main .wrap1 .lang-grid .icon-list .design-tools .break {
                 width: 90%;
                 margin-left: 1rem; } }
+    .container main .wrap2 h1 {
+      font-weight: 300; }
+    @media only screen and (min-width: 320px) and (max-width: 26.875em) {
+      .container main .wrap2 {
+        text-align: center; }
+        .container main .wrap2 .p-icon {
+          width: 100%; } }

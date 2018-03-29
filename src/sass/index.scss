@@ -203,5 +203,17 @@ body {
         }
       }
     }
+    // PROJECTS SECTION
+    .wrap2 {
+      h1 {
+        font-weight: 300;
+      }
+      @include mobile {
+        text-align: center;
+        .p-icon {
+        width: 100%;
+        }
+      }
+    }
   }
 }
