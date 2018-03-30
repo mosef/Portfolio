@@ -113,6 +113,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/3c2249ba4dea68bc0ec08ea8c13b8340.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/3c2249ba4dea68bc0ec08ea8c13b8340-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/3e7fcc143357906500d36e321bc21885.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -181,6 +189,14 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/5fb45e5dc52a2ec5532000258b41934f-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/6c353e74d545bd567527a76f4ddfc7a9.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/6c353e74d545bd567527a76f4ddfc7a9-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -811,6 +827,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/js\/about.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/src\/js\/about-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"\/src\/js\/contact.js": {
 		"ft": 64,
 		"ma": 0,
@@ -821,22 +847,22 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"\/src\/js\/home.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/src\/js\/home-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"\/src\/js\/images.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/src\/js\/images-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/src\/js\/lab.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/src\/js\/lab-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1

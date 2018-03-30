@@ -15,7 +15,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: minmax(100px, auto);
+  grid-template-rows: minmax(50px, auto);
   margin: 0 auto;
 
   header {
@@ -24,7 +24,9 @@ body {
     width: 100vw;
     height: 50vh;
     @include mobile {
-      height: 92.7vh;
+      grid-column: 1/1;
+      grid-row: 1/1;
+      height: 100vh;
     }
     background-image: url('../img/Background.png');
     background-size: cover;
@@ -35,17 +37,16 @@ body {
       grid-template-rows: minmax(100px, auto);
       @include mobile {
         grid-template-columns: repeat(1, 1fr);
-        margin-top: 150px;
       }
       color: white;
       text-align: center;
-      margin-top: 100px;
       .text-wrap {
         text-align: left;
         grid-column: 4/11;
         @include mobile {
           grid-column: 1/1;
           text-align: center;
+          margin-top: 8rem;
         }
         h1, h2 {
           font-family: Montserrat;
@@ -95,6 +96,7 @@ body {
     grid-row: 2/2;
       @include mobile {
         grid-column: 1/1;
+        grid-row: 1/1;
       }
       ul {
         list-style: none;
@@ -122,10 +124,10 @@ body {
     .content-container {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: minmax(100px, auto);
+      grid-template-rows: minmax(50px, auto);
     }
     // ABOUT SECTION
-    .init-wrap {
+    .wrap.one {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: minmax(100px, auto);
@@ -143,7 +145,7 @@ body {
         }
         @include mobile {
           grid-column: 1/1;
-          grid-row: 1/2;
+          grid-row: 1/1;
         }
         text-align: center;
         .placeholder {

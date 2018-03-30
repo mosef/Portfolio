@@ -1,26 +1,22 @@
+import loadHome from './home'
+import loadAbout from './about';
 import loadProjects from './projects';
-import loadLab from './lab';
 import loadContact from './contact';
 
 export default function menuToggle() {
-  $('.nav-list').on('click', '#about, #projects, #lab, #contact', (e) => {
+  $('.nav-list').on('click', '#home, #about, #projects, #contact', (e) => {
     e.preventDefault();
-    if (e.target.id === 'about') {
-      $(".wrap").remove();
-      $('.init-wrap').show();
-    } else{
-      $('.init-wrap').hide();
+    const id = e.target.id;
+    if (id === 'home') {
+      loadHome();
     }
-    if (e.target.id === 'projects') {
-      $('.wrap').remove();
+    if (id === 'about') {
+      loadAbout();
+    }
+    if (id === 'projects') {
       loadProjects();
     }
-    if (e.target.id === 'lab') {
-      $('.wrap').remove();
-      loadLab();
-    }
-    if (e.target.id === 'contact') {
-      $('.wrap').remove();
+    if (id === 'contact') {
       loadContact();
     }
   });

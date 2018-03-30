@@ -353,7 +353,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: minmax(100px, auto);
+  grid-template-rows: minmax(50px, auto);
   margin: 0 auto; }
   .container header {
     grid-column: 1/1;
@@ -365,25 +365,26 @@ body {
     background-repeat: no-repeat; }
     @media only screen and (min-width: 320px) and (max-width: 26.875em) {
       .container header {
-        height: 92.7vh; } }
+        grid-column: 1/1;
+        grid-row: 1/1;
+        height: 100vh; } }
     .container header .intro {
       display: grid;
       grid-template-columns: repeat(12, 1fr);
       grid-template-rows: minmax(100px, auto);
       color: white;
-      text-align: center;
-      margin-top: 100px; }
+      text-align: center; }
       @media only screen and (min-width: 320px) and (max-width: 26.875em) {
         .container header .intro {
-          grid-template-columns: repeat(1, 1fr);
-          margin-top: 150px; } }
+          grid-template-columns: repeat(1, 1fr); } }
       .container header .intro .text-wrap {
         text-align: left;
         grid-column: 4/11; }
         @media only screen and (min-width: 320px) and (max-width: 26.875em) {
           .container header .intro .text-wrap {
             grid-column: 1/1;
-            text-align: center; } }
+            text-align: center;
+            margin-top: 8rem; } }
         .container header .intro .text-wrap h1, .container header .intro .text-wrap h2 {
           font-family: Montserrat;
           font-weight: 300;
@@ -421,7 +422,8 @@ body {
     grid-row: 2/2; }
     @media only screen and (min-width: 320px) and (max-width: 26.875em) {
       .container main {
-        grid-column: 1/1; } }
+        grid-column: 1/1;
+        grid-row: 1/1; } }
     .container main ul {
       list-style: none;
       padding: 0px; }
@@ -443,67 +445,67 @@ body {
     .container main .content-container {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: minmax(100px, auto); }
-    .container main .init-wrap {
+      grid-template-rows: minmax(50px, auto); }
+    .container main .wrap.one {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: minmax(100px, auto); }
       @media only screen and (min-width: 320px) and (max-width: 26.875em) {
-        .container main .init-wrap {
+        .container main .wrap.one {
           grid-template-columns: repeat(1, 1fr); } }
-      .container main .init-wrap .about-wrapper {
+      .container main .wrap.one .about-wrapper {
         text-align: center; }
-        .container main .init-wrap .about-wrapper h1 {
+        .container main .wrap.one .about-wrapper h1 {
           font-weight: 300; }
-        .container main .init-wrap .about-wrapper p {
+        .container main .wrap.one .about-wrapper p {
           padding: 5px;
           line-height: 1.45em;
           font-weight: 200; }
         @media only screen and (min-width: 320px) and (max-width: 26.875em) {
-          .container main .init-wrap .about-wrapper {
+          .container main .wrap.one .about-wrapper {
             grid-column: 1/1;
-            grid-row: 1/2; } }
-        .container main .init-wrap .about-wrapper .placeholder {
+            grid-row: 1/1; } }
+        .container main .wrap.one .about-wrapper .placeholder {
           background-color: #E31B6D;
           height: 50px;
           width: 50px;
           border-radius: 50px;
           margin: 0 auto; }
-      .container main .init-wrap .lang-grid {
+      .container main .wrap.one .lang-grid {
         color: black; }
         @media only screen and (min-width: 320px) and (max-width: 26.875em) {
-          .container main .init-wrap .lang-grid {
+          .container main .wrap.one .lang-grid {
             grid-column: 1/1; } }
-        .container main .init-wrap .lang-grid .icon-list {
+        .container main .wrap.one .lang-grid .icon-list {
           display: grid;
           grid-template-columns: repeat(1, 1fr);
           grid-template-rows: minmax(100px, auto);
           margin: 0 auto; }
-          .container main .init-wrap .lang-grid .icon-list li {
+          .container main .wrap.one .lang-grid .icon-list li {
             display: inline-block;
             text-align: center; }
             @media only screen and (min-width: 320px) and (max-width: 26.875em) {
-              .container main .init-wrap .lang-grid .icon-list li {
+              .container main .wrap.one .lang-grid .icon-list li {
                 padding: 15px; }
-                .container main .init-wrap .lang-grid .icon-list li .l-icon {
+                .container main .wrap.one .lang-grid .icon-list li .l-icon {
                   width: 35%; } }
-          .container main .init-wrap .lang-grid .icon-list .front-end, .container main .init-wrap .lang-grid .icon-list .back-end, .container main .init-wrap .lang-grid .icon-list .design-tools {
+          .container main .wrap.one .lang-grid .icon-list .front-end, .container main .wrap.one .lang-grid .icon-list .back-end, .container main .wrap.one .lang-grid .icon-list .design-tools {
             grid-column: 1/1;
             text-align: center; }
-          .container main .init-wrap .lang-grid .icon-list .front-end {
+          .container main .wrap.one .lang-grid .icon-list .front-end {
             grid-row: 1/2; }
-          .container main .init-wrap .lang-grid .icon-list .back-end {
+          .container main .wrap.one .lang-grid .icon-list .back-end {
             grid-row: 2/2; }
-          .container main .init-wrap .lang-grid .icon-list .design-tools {
+          .container main .wrap.one .lang-grid .icon-list .design-tools {
             grid-row: 3/3; }
-            .container main .init-wrap .lang-grid .icon-list .design-tools .break {
+            .container main .wrap.one .lang-grid .icon-list .design-tools .break {
               border: none;
               color: white;
               height: 1px;
               background: #35495E;
               background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff)); }
             @media only screen and (min-width: 320px) and (max-width: 26.875em) {
-              .container main .init-wrap .lang-grid .icon-list .design-tools .break {
+              .container main .wrap.one .lang-grid .icon-list .design-tools .break {
                 width: 90%;
                 margin-left: 1rem; } }
     .container main .wrap.two h1 {
