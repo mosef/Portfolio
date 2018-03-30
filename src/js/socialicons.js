@@ -8,4 +8,4 @@ export {
   linkedinIcon,
   slackIcon,
   twitterIcon,
-}
+};
