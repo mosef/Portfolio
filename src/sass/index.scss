@@ -3,8 +3,6 @@
 html {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  width: 100vw;
 }
 
 body {
@@ -22,10 +20,10 @@ body {
   margin: 0 auto;
 
   header {
-    grid-column: 1/1;
-    grid-row: 1/2;
+    grid-column: 1/13;
+    grid-row: 1/5;
     width: 100vw;
-    height: 50vh;
+    height: 93.5vh;
     @include mobile {
       grid-column: 1/1;
       grid-row: 1/1;
@@ -45,7 +43,8 @@ body {
       text-align: center;
       .text-wrap {
         text-align: left;
-        grid-column: 4/11;
+        margin-top: 12rem;
+        grid-column: 4/12;
         @include mobile {
           grid-column: 1/1;
           text-align: center;
@@ -93,7 +92,7 @@ body {
   }
   main {
     grid-column: 1/13;
-    grid-row: 2/2;
+    grid-row: 1/2;
       @include mobile {
         grid-column: 1/1;
         grid-row: 1/1;
@@ -121,31 +120,40 @@ body {
         }
       } 
     }
-    .content-container {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: minmax(50px, auto);
-    }
     // ABOUT SECTION
     .wrap.one {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 20px;
       grid-template-rows: minmax(100px, auto);
       @include mobile {
         grid-template-columns: repeat(1, 1fr);
       }
       .about-wrapper {
+        margin-top: 20px; 
         h1 {
           font-weight: 300;
         }
-        p {
-          padding: 5px;
-          line-height: 1.45em;
-          font-weight: 200;
+        @include desktop {
+          p {
+            padding: 50px;
+            line-height: 1.45em;
+            font-weight: 200;
+          }
+        }
+        @include tablet {
+          p {
+            padding: 35px;
+            line-height: 1.45em;
+            font-weight: 200;
+          }
         }
         @include mobile {
           grid-column: 1/1;
           grid-row: 1/1;
+          p {
+            padding: 5px;
+          }
         }
         text-align: center;
         .profile-pic {
@@ -159,8 +167,10 @@ body {
       }
       .lang-grid {
         color: black;
+        margin-top: 20px;
         @include mobile {
           grid-column: 1/1;
+          margin-top: auto;
         }
         .icon-list {
           display: grid;
@@ -170,6 +180,12 @@ body {
           li {
             display: inline-block;
             text-align: center;
+            .l-icon {
+              width: 45%;
+            }
+            .leaf {
+              width: 30%;
+            }
             @include mobile {
               padding: 15px;
               .l-icon {
@@ -210,9 +226,45 @@ body {
     .wrap.two {
       h1 {
         font-weight: 300;
+        margin-left: 20px;
+      }
+      p {
+        font-weight: 200;
+        padding: 20px;
+        line-height: 1.4em;
+      }
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: minmax(100px, auto);
+      .project {
+        display: inline-block;
+        text-align: center;
+      }
+      .project.one {
+        grid-column: 1/2;
+      }
+      .project.two {
+        grid-column: 2/3;
+      }
+      .project.three {
+        grid-column: 3/4;
+      }
+      .preview {
+        display: none;
+      }
+      @include desktop {
+        .p-icon {
+          width: 85%;
+        }
+      }
+      @include tablet {
+        .p-icon {
+          width: 90%;
+        }
       }
       @include mobile {
         text-align: center;
+        display: block;
         h1 {
           font-size: 2.4em;
         }
@@ -241,6 +293,7 @@ body {
     }
     // CONTACT SECTION
     .wrap.three {
+      text-align: center;
       a {
         text-decoration: none;
         color: #252934;
@@ -262,7 +315,6 @@ body {
         width: 100px;
       }
       @include mobile {
-        text-align: center;
         .s-icon {
           width: 75px;
         }
