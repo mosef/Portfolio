@@ -77,7 +77,7 @@ parcelRequire = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({11:[function(require,module,exports) {
+})({15:[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {};
@@ -10632,7 +10632,7 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-},{"process":11}],18:[function(require,module,exports) {
+},{"process":15}],18:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -10705,13 +10705,13 @@ module.exports = reloadCSS;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../img/Background.png":[["Background.1c1f3c9c.png",9],9],"./../img/profile.jpg":[["profile.5e24aad5.jpg",10],10],"_css_loader":8}],36:[function(require,module,exports) {
+},{"./../img/Background.png":[["Background.1c1f3c9c.png",9],9],"./../img/profile.jpg":[["profile.5e24aad5.jpg",10],10],"_css_loader":8}],41:[function(require,module,exports) {
 module.exports="/binge.6f76e72d.png";
-},{}],37:[function(require,module,exports) {
+},{}],42:[function(require,module,exports) {
 module.exports="/minion.db220038.png";
-},{}],38:[function(require,module,exports) {
+},{}],43:[function(require,module,exports) {
 module.exports="/typequick.da391f04.png";
-},{}],16:[function(require,module,exports) {
+},{}],40:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10736,7 +10736,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.bingeOnIcon = _binge2.default;
 exports.minionManagerIcon = _minion2.default;
 exports.typeQuickIcon = _typequick2.default;
-},{"../img/binge.png":36,"../img/minion.png":37,"../img/typequick.png":38}],13:[function(require,module,exports) {
+},{"../img/binge.png":41,"../img/minion.png":42,"../img/typequick.png":43}],11:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10752,9 +10752,9 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 
 function loadProjects() {
   $('.wrap').remove();
-  $('.content').append('\n    <div class="wrap two">\n      <h1>Projects</h1>\n      <div class="project one">\n        <h3>Binge On</h3>\n        <a href="https://mosef.github.io/BingeOn/" target="_blank">\n          <div class ="preview"><p>View Project</p></div>\n          <img src=' + icon.bingeOnIcon + ' alt="" class="p-icon" />\n        </a>\n        <p>Finished watching a show? Try finding similar shows to watch with a video\n          preview. Built using the YouTube API and TasteDive API.\n        </p>\n      </div>\n      <div class="project two">\n        <h3>Minion Manager</h3>\n        <a href="https://sheltered-coast-97878.herokuapp.com/" target="_blank">\n          <div class ="preview"><p>View Project</p></div>\n          <img src=' + icon.minionManagerIcon + ' alt="" class="p-icon" />\n        </a>\n        <p> An Express app that helps table top hosts keep track of relevant player\n        data while preventing players from editing the data between sessions.\n        </p>\n      </div>\n      <div class="project three">\n      <h3>TypeQuick</h3>\n        <a href="http://frosty-wright-cc1a68.netlify.com/" target="_blank">\n          <div class ="preview"><p>View Project</p></div>\n          <img src=' + icon.typeQuickIcon + ' alt="" class="p-icon" />\n        </a>\n        <p>A MERN stack app that helps developers code faster through learning\n        syntax shortcuts and code challenges. You can keep track of your progress\n        through chart data that shows your fastest challenge times.\n        </p>\n      </div>\n    </div>\n  ');
+  $('.content').append('\n    <div class="wrap two">\n      <h1>Projects</h1>\n      <div class="project one">\n        <h3>Binge On</h3>\n        <a href="https://mosef.github.io/BingeOn/" target="_blank">\n          <div class ="preview"><p>View Project</p></div>\n          <img src=' + icon.bingeOnIcon + ' alt="" class="p-icon" />\n        </a>\n        <p>Finished watching a show? Try finding similar shows to watch with a video\n          preview. Built using the YouTube API and TasteDive API.\n        </p>\n      </div>\n      <div class="project two">\n        <h3>Minion Manager</h3>\n        <a href="https://sheltered-coast-97878.herokuapp.com/" target="_blank">\n          <div class ="preview"><p>View Project</p></div>\n          <img src=' + icon.minionManagerIcon + ' alt="" class="p-icon" />\n        </a>\n        <p> An Express app that helps table top hosts keep track of relevant player\n        data while preventing players from editing the data between sessions.\n        </p>\n      </div>\n      <div class="project three">\n      <h3>TypeQuick</h3>\n        <a href="https://typequick.netlify.com/" target="_blank">\n          <div class ="preview"><p>View Project</p></div>\n          <img src=' + icon.typeQuickIcon + ' alt="" class="p-icon" />\n        </a>\n        <p>A MERN stack app that helps developers code faster through learning\n        syntax shortcuts and code challenges. You can keep track of your progress\n        through chart data that shows your fastest challenge times.\n        </p>\n      </div>\n    </div>\n  ');
 }
-},{"./projecticons":16}],5:[function(require,module,exports) {
+},{"./projecticons":40}],4:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10779,7 +10779,7 @@ function loadHome() {
     (0, _projects2.default)();
   });
 }
-},{"./projects":13}],19:[function(require,module,exports) {
+},{"./projects":11}],19:[function(require,module,exports) {
 module.exports="/react.b8c1a880.png";
 },{}],20:[function(require,module,exports) {
 module.exports="/redux.98d1cf33.png";
@@ -10813,7 +10813,7 @@ module.exports="/photoshop-plain.0928b997.png";
 module.exports="/sketch-line.dd84d6aa.png";
 },{}],35:[function(require,module,exports) {
 module.exports="/figma.ec4b4a9f.png";
-},{}],15:[function(require,module,exports) {
+},{}],17:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10926,15 +10926,15 @@ function loadAbout() {
   $('.wrap').remove();
   $('.content').append('\n<div class="wrap one">\n  <div class="about-wrapper">\n    <h1>About</h1>\n    <div class="profile-pic"></div>\n    <p> I\'m a MERN stack developer and an emerging web tech enthusiast. Any time\n      there\'s an update in a language or framework I\'m there watching the demos,\n      taking notes, and thinking of what I can build next. If I\'m not building\n      something in my spare time, I\'m either reading or binging netflix.\n    </p>\n  </div>\n  <div class="lang-grid">\n    <ul class="icon-list">\n      <div class="front-end">\n        <h3>Front End</h3>\n        <li>\n          <img src=' + icon.reactIcon + ' alt="" class="l-icon" />\n          <p>React</p>\n        </li>\n        <li>\n          <img src=' + icon.reduxIcon + ' alt="" class="l-icon" />\n          <p>Redux</p>\n        </li>\n        <li>\n          <img src=' + icon.jsIcon + ' alt="" class="l-icon" />\n          <p>JavaScript</p>\n        </li>\n        <li>\n          <img src=' + icon.jqueryIcon + ' alt="" class="l-icon" />\n          <p>jQuery</p>\n        </li>\n        <li>\n          <img src=' + icon.gitIcon + ' alt="" class="l-icon" />\n          <p>Git</p>\n        </li>\n        <li>\n          <img src=' + icon.sassIcon + ' alt="" class="l-icon" />\n          <p>Sass</p>\n        </li>\n        <li>\n          <img src=' + icon.cssIcon + ' alt="" class="l-icon" />\n          <p>CSS3</p>\n        </li>\n        <li>\n          <img src=' + icon.htmlIcon + ' alt="" class="l-icon" />\n          <p>HTML5</p>\n        </li>\n      </div>\n      <div class="back-end">\n        <h3>Back End</h3>\n        <li>\n          <img src=' + icon.nodeIcon + ' alt="" class="l-icon" />\n          <p>Node</p>\n        </li>\n        <li>\n          <img src=' + icon.expressIcon + ' alt="" class="l-icon" />\n          <p>Express</p>\n        </li>\n        <li>\n          <img src=' + icon.mongoDbIcon + ' alt="" class="l-icon leaf" />\n          <p>MongoDb</p>\n        </li>\n        <li>\n          <img src=' + icon.mochaIcon + ' alt="" class="l-icon" />\n          <p>Mocha</p>\n        </li>\n        <li>\n          <img src=' + icon.travisIcon + ' alt="" class="l-icon" />\n          <p>Travis CI</p>\n        </li>\n      </div>\n      <div class="design-tools">\n        <div class="break"></div>\n        <h3>Design Tools</h3>\n        <li>\n          <img src=' + icon.illustratorIcon + ' alt="" class="l-icon" />\n          <p>illustrator</p>\n        </li>\n        <li>\n          <img src=' + icon.photoshopIcon + ' alt="" class="l-icon" />\n          <p>Photoshop</p>\n        </li>\n        <li>\n          <img src=' + icon.sketchIcon + ' alt="" class="l-icon" />\n          <p>Sketch</p>\n        </li>\n        <li>\n          <img src=' + icon.figmaIcon + ' alt="" class="l-icon" />\n          <p>Figma</p>\n        </li>\n      </div>\n    </ul>\n  </div>\n</div>\n  ');
 }
-},{"./abouticons":15}],39:[function(require,module,exports) {
+},{"./abouticons":17}],36:[function(require,module,exports) {
 module.exports="/github.91c7a472.png";
-},{}],40:[function(require,module,exports) {
+},{}],37:[function(require,module,exports) {
 module.exports="/linkedin-plain.b3478026.png";
-},{}],41:[function(require,module,exports) {
+},{}],38:[function(require,module,exports) {
 module.exports="/slack-plain.fdb4b4f4.png";
-},{}],42:[function(require,module,exports) {
+},{}],39:[function(require,module,exports) {
 module.exports="/twitter-original.eb7f2e38.png";
-},{}],17:[function(require,module,exports) {
+},{}],16:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10964,7 +10964,7 @@ exports.githubIcon = _github2.default;
 exports.linkedinIcon = _linkedinPlain2.default;
 exports.slackIcon = _slackPlain2.default;
 exports.twitterIcon = _twitterOriginal2.default;
-},{"../img/github.png":39,"../img/linkedin-plain.png":40,"../img/slack-plain.png":41,"../img/twitter-original.png":42}],14:[function(require,module,exports) {
+},{"../img/github.png":36,"../img/linkedin-plain.png":37,"../img/slack-plain.png":38,"../img/twitter-original.png":39}],13:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10982,7 +10982,7 @@ function loadContact() {
   $('.wrap').remove();
   $('.content').append('\n    <div class="wrap three">\n      <h1>Email me at:</h1>\n      <h1><span class="s-pink">mosefasad</span>@gmail.com</h1>\n      <h3>You can also find me on:</h3>\n      <div class ="social-icons">\n        <div class="s-icon">\n          <a href="https://github.com/mosef" target="_blank">\n            <img src=' + icon.githubIcon + ' alt="" class="ico g" />\n            <p>Github</p>\n        </a>\n        </div>\n        <div class="s-icon">\n          <a href="https://www.linkedin.com/in/mosef-asad-551ab4b2" target="_blank">\n            <img src=' + icon.linkedinIcon + ' alt="" class="ico l" />\n            <p>LinkedIn</p>\n          </a>\n        </div>\n        <div class="s-icon">\n          <a href="https://twitter.com/MosefAsad" target="_blank">\n            <img src=' + icon.twitterIcon + ' alt="" class="ico t" />\n            <p>Twitter</p>\n          </a>\n        </div>\n        <div class="s-icon">\n          <a href="https://labcollabworkspace.slack.com/" target="_blank">\n            <img src=' + icon.slackIcon + ' alt="" class="ico s" />\n            <p>Slack</p>\n          </a>\n        </div>\n      </div>\n    </div>\n  ');
 }
-},{"./socialicons":17}],4:[function(require,module,exports) {
+},{"./socialicons":16}],5:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -11027,7 +11027,7 @@ function menuToggle() {
     }
   });
 }
-},{"./home":5,"./about":12,"./projects":13,"./contact":14}],2:[function(require,module,exports) {
+},{"./home":4,"./about":12,"./projects":11,"./contact":13}],2:[function(require,module,exports) {
 'use strict';
 
 var _jquery = require('jquery');
@@ -11052,7 +11052,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   (0, _home2.default)();
   (0, _nav2.default)();
 });
-},{"jquery":6,"normalize.css":7,"./src/css/index.css":3,"./src/js/nav":4,"./src/js/home":5}],48:[function(require,module,exports) {
+},{"jquery":6,"normalize.css":7,"./src/css/index.css":3,"./src/js/nav":5,"./src/js/home":4}],44:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -11082,7 +11082,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '64518' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '50580' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -11221,5 +11221,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[48,2])
+},{}]},{},[44,2])
 //# sourceMappingURL=/portfolio-c.933c7317.map

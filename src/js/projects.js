@@ -27,7 +27,7 @@ export default function loadProjects() {
       </div>
       <div class="project three">
       <h3>TypeQuick</h3>
-        <a href="http://frosty-wright-cc1a68.netlify.com/" target="_blank">
+        <a href="https://typequick.netlify.com/" target="_blank">
           <div class ="preview"><p>View Project</p></div>
           <img src=${icon.typeQuickIcon} alt="" class="p-icon" />
         </a>
