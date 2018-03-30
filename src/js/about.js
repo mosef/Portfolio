@@ -6,7 +6,7 @@ export default function loadAbout() {
 <div class="wrap one">
   <div class="about-wrapper">
     <h1>About</h1>
-    <div class="placeholder"></div>
+    <div class="profile-pic"></div>
     <p> I'm a MERN stack developer and an emerging web tech enthusiast. Any time
       there's an update in a language or framework I'm there watching the demos,
       taking notes, and thinking of what I can build next. If I'm not building

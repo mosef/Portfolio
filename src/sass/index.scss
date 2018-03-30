@@ -10,6 +10,9 @@ html {
 body {
   font-family: $mont;
   min-width: 320px;
+  .s-pink {
+    color: #E31B6D;
+  }
 }
 
 .container {
@@ -81,9 +84,6 @@ body {
           background: $pinkLight;
         }
       }
-      .s-pink {
-        color: #E31B6D;
-      }
     }
   }
   nav {
@@ -148,11 +148,12 @@ body {
           grid-row: 1/1;
         }
         text-align: center;
-        .placeholder {
-          background-color: $pinkBase;
-          height: 50px;
-          width: 50px;
-          border-radius: 50px;
+        .profile-pic {
+          background-image: url('../img/profile.jpg');
+          background-size: contain;
+          width: 200px;
+          height: 200px;
+          border-radius: 100px;
           margin: 0 auto;
         }
       }
@@ -235,6 +236,41 @@ body {
         .p-icon {
         position: relative;
         width: 100%;
+        }
+      }
+    }
+    // CONTACT SECTION
+    .wrap.three {
+      a {
+        text-decoration: none;
+        color: #252934;
+      }
+      h1 {
+        font-size: 1.7em;
+        margin-top: 50px;
+      }
+      h1, h3 {
+        font-weight: 400;
+      }
+      h3 {
+        margin-top: 80px;
+      }
+      .social-icons {
+        display: inline-flex; 
+      }
+      .s-icon {
+        width: 100px;
+      }
+      @include mobile {
+        text-align: center;
+        .s-icon {
+          width: 75px;
+        }
+        .ico {
+          width: 40%;
+        }
+        .ico.t {
+          padding-top: 4px;
         }
       }
     }

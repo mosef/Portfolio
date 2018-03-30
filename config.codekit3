@@ -233,6 +233,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/779667fc265d1f56631594a16f1562c2.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/779667fc265d1f56631594a16f1562c2-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/7a06653b68dee979026cfb7ac65029ba.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -771,6 +779,16 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/profile.jpg": {
+		"ft": 16384,
+		"iS": 23366,
+		"oA": 0,
+		"oAP": "\/src\/img\/profile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/src\/img\/react.png": {
