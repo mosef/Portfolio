@@ -77,7 +77,7 @@ parcelRequire = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({15:[function(require,module,exports) {
+})({12:[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {};
@@ -264,7 +264,7 @@ process.chdir = function (dir) {
 process.umask = function () {
     return 0;
 };
-},{}],6:[function(require,module,exports) {
+},{}],8:[function(require,module,exports) {
 var global = (1,eval)("this");
 var process = require("process");
 /*!
@@ -10632,7 +10632,7 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-},{"process":15}],18:[function(require,module,exports) {
+},{"process":12}],19:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -10662,7 +10662,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],8:[function(require,module,exports) {
+},{}],11:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -10693,25 +10693,25 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":18}],7:[function(require,module,exports) {
+},{"./bundle-url":19}],7:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":8}],3:[function(require,module,exports) {
+},{"_css_loader":11}],3:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../img/Background.png":[["Background.1c1f3c9c.png",9],9],"./../img/profile.jpg":[["profile.5e24aad5.jpg",10],10],"_css_loader":8}],41:[function(require,module,exports) {
+},{"./../img/Background.png":[["Background.1c1f3c9c.png",20],20],"./../img/profile.jpg":[["profile.5e24aad5.jpg",21],21],"_css_loader":11}],39:[function(require,module,exports) {
 module.exports="/binge.6f76e72d.png";
-},{}],42:[function(require,module,exports) {
-module.exports="/minion.db220038.png";
-},{}],43:[function(require,module,exports) {
-module.exports="/typequick.da391f04.png";
 },{}],40:[function(require,module,exports) {
+module.exports="/minion.db220038.png";
+},{}],41:[function(require,module,exports) {
+module.exports="/typequick.da391f04.png";
+},{}],17:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10736,7 +10736,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.bingeOnIcon = _binge2.default;
 exports.minionManagerIcon = _minion2.default;
 exports.typeQuickIcon = _typequick2.default;
-},{"../img/binge.png":41,"../img/minion.png":42,"../img/typequick.png":43}],11:[function(require,module,exports) {
+},{"../img/binge.png":39,"../img/minion.png":40,"../img/typequick.png":41}],14:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10754,7 +10754,7 @@ function loadProjects() {
   $('.wrap').remove();
   $('.content').append('\n    <div class="wrap two">\n      <h1>Projects</h1>\n      <div class="project one">\n        <h3>Binge On</h3>\n        <a href="https://mosef.github.io/BingeOn/" target="_blank">\n          <div class ="preview"><p>View Project</p></div>\n          <img src=' + icon.bingeOnIcon + ' alt="" class="p-icon" />\n        </a>\n        <p>Finished watching a show? Try finding similar shows to watch with a video\n          preview. Built using the YouTube API and TasteDive API.\n        </p>\n      </div>\n      <div class="project two">\n        <h3>Minion Manager</h3>\n        <a href="https://sheltered-coast-97878.herokuapp.com/" target="_blank">\n          <div class ="preview"><p>View Project</p></div>\n          <img src=' + icon.minionManagerIcon + ' alt="" class="p-icon" />\n        </a>\n        <p> An Express app that helps table top hosts keep track of relevant player\n        data while preventing players from editing the data between sessions.\n        </p>\n      </div>\n      <div class="project three">\n      <h3>TypeQuick</h3>\n        <a href="https://typequick.netlify.com/" target="_blank">\n          <div class ="preview"><p>View Project</p></div>\n          <img src=' + icon.typeQuickIcon + ' alt="" class="p-icon" />\n        </a>\n        <p>A MERN stack app that helps developers code faster through learning\n        syntax shortcuts and code challenges. You can keep track of your progress\n        through chart data that shows your fastest challenge times.\n        </p>\n      </div>\n    </div>\n  ');
 }
-},{"./projecticons":40}],4:[function(require,module,exports) {
+},{"./projecticons":17}],5:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10779,41 +10779,41 @@ function loadHome() {
     (0, _projects2.default)();
   });
 }
-},{"./projects":11}],19:[function(require,module,exports) {
+},{"./projects":14}],22:[function(require,module,exports) {
 module.exports="/react.b8c1a880.png";
-},{}],20:[function(require,module,exports) {
-module.exports="/redux.98d1cf33.png";
-},{}],21:[function(require,module,exports) {
-module.exports="/js.c469f5f2.png";
-},{}],22:[function(require,module,exports) {
-module.exports="/jquery.eed24ebb.png";
 },{}],23:[function(require,module,exports) {
-module.exports="/git.261e5d55.png";
+module.exports="/redux.98d1cf33.png";
 },{}],24:[function(require,module,exports) {
-module.exports="/sass.41125701.png";
+module.exports="/js.c469f5f2.png";
 },{}],25:[function(require,module,exports) {
-module.exports="/css.93ebbcd3.png";
+module.exports="/jquery.eed24ebb.png";
 },{}],26:[function(require,module,exports) {
-module.exports="/html5.06146883.png";
+module.exports="/git.261e5d55.png";
 },{}],27:[function(require,module,exports) {
-module.exports="/nodejs-icon.3d165122.png";
+module.exports="/sass.41125701.png";
 },{}],28:[function(require,module,exports) {
-module.exports="/express-original.ced93f1f.png";
+module.exports="/css.93ebbcd3.png";
 },{}],29:[function(require,module,exports) {
-module.exports="/mongodb-plain.c1ef927c.png";
+module.exports="/html5.06146883.png";
 },{}],30:[function(require,module,exports) {
-module.exports="/mocha-plain.a0a956c1.png";
+module.exports="/nodejs-icon.3d165122.png";
 },{}],31:[function(require,module,exports) {
-module.exports="/travisci.c4bc0a02.png";
+module.exports="/express-original.ced93f1f.png";
 },{}],32:[function(require,module,exports) {
-module.exports="/illustrator-plain.143daf77.png";
+module.exports="/mongodb-plain.c1ef927c.png";
 },{}],33:[function(require,module,exports) {
-module.exports="/photoshop-plain.0928b997.png";
+module.exports="/mocha-plain.a0a956c1.png";
 },{}],34:[function(require,module,exports) {
-module.exports="/sketch-line.dd84d6aa.png";
+module.exports="/travisci.c4bc0a02.png";
 },{}],35:[function(require,module,exports) {
+module.exports="/illustrator-plain.143daf77.png";
+},{}],36:[function(require,module,exports) {
+module.exports="/photoshop-plain.0928b997.png";
+},{}],37:[function(require,module,exports) {
+module.exports="/sketch-line.dd84d6aa.png";
+},{}],38:[function(require,module,exports) {
 module.exports="/figma.ec4b4a9f.png";
-},{}],17:[function(require,module,exports) {
+},{}],16:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10908,7 +10908,7 @@ exports.illustratorIcon = _illustratorPlain2.default;
 exports.photoshopIcon = _photoshopPlain2.default;
 exports.sketchIcon = _sketchLine2.default;
 exports.figmaIcon = _figma2.default;
-},{"../img/react.png":19,"../img/redux.png":20,"../img/js.png":21,"../img/jquery.png":22,"../img/git.png":23,"../img/sass.png":24,"../img/css.png":25,"../img/html5.png":26,"../img/nodejs-icon.png":27,"../img/express-original.png":28,"../img/mongodb-plain.png":29,"../img/mocha-plain.png":30,"../img/travisci.png":31,"../img/illustrator-plain.png":32,"../img/photoshop-plain.png":33,"../img/sketch-line.png":34,"../img/figma.png":35}],12:[function(require,module,exports) {
+},{"../img/react.png":22,"../img/redux.png":23,"../img/js.png":24,"../img/jquery.png":25,"../img/git.png":26,"../img/sass.png":27,"../img/css.png":28,"../img/html5.png":29,"../img/nodejs-icon.png":30,"../img/express-original.png":31,"../img/mongodb-plain.png":32,"../img/mocha-plain.png":33,"../img/travisci.png":34,"../img/illustrator-plain.png":35,"../img/photoshop-plain.png":36,"../img/sketch-line.png":37,"../img/figma.png":38}],13:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10926,15 +10926,15 @@ function loadAbout() {
   $('.wrap').remove();
   $('.content').append('\n<div class="wrap one">\n  <div class="about-wrapper">\n    <h1>About</h1>\n    <div class="profile-pic"></div>\n    <p> I\'m a MERN stack developer and an emerging web tech enthusiast. Any time\n      there\'s an update in a language or framework I\'m there watching the demos,\n      taking notes, and thinking of what I can build next. If I\'m not building\n      something in my spare time, I\'m either reading or binging netflix.\n    </p>\n  </div>\n  <div class="lang-grid">\n    <ul class="icon-list">\n      <div class="front-end">\n        <h3>Front End</h3>\n        <li>\n          <img src=' + icon.reactIcon + ' alt="" class="l-icon" />\n          <p>React</p>\n        </li>\n        <li>\n          <img src=' + icon.reduxIcon + ' alt="" class="l-icon" />\n          <p>Redux</p>\n        </li>\n        <li>\n          <img src=' + icon.jsIcon + ' alt="" class="l-icon" />\n          <p>JavaScript</p>\n        </li>\n        <li>\n          <img src=' + icon.jqueryIcon + ' alt="" class="l-icon" />\n          <p>jQuery</p>\n        </li>\n        <li>\n          <img src=' + icon.gitIcon + ' alt="" class="l-icon" />\n          <p>Git</p>\n        </li>\n        <li>\n          <img src=' + icon.sassIcon + ' alt="" class="l-icon" />\n          <p>Sass</p>\n        </li>\n        <li>\n          <img src=' + icon.cssIcon + ' alt="" class="l-icon" />\n          <p>CSS3</p>\n        </li>\n        <li>\n          <img src=' + icon.htmlIcon + ' alt="" class="l-icon" />\n          <p>HTML5</p>\n        </li>\n      </div>\n      <div class="back-end">\n        <h3>Back End</h3>\n        <li>\n          <img src=' + icon.nodeIcon + ' alt="" class="l-icon" />\n          <p>Node</p>\n        </li>\n        <li>\n          <img src=' + icon.expressIcon + ' alt="" class="l-icon" />\n          <p>Express</p>\n        </li>\n        <li>\n          <img src=' + icon.mongoDbIcon + ' alt="" class="l-icon leaf" />\n          <p>MongoDb</p>\n        </li>\n        <li>\n          <img src=' + icon.mochaIcon + ' alt="" class="l-icon" />\n          <p>Mocha</p>\n        </li>\n        <li>\n          <img src=' + icon.travisIcon + ' alt="" class="l-icon" />\n          <p>Travis CI</p>\n        </li>\n      </div>\n      <div class="design-tools">\n        <div class="break"></div>\n        <h3>Design Tools</h3>\n        <li>\n          <img src=' + icon.illustratorIcon + ' alt="" class="l-icon" />\n          <p>illustrator</p>\n        </li>\n        <li>\n          <img src=' + icon.photoshopIcon + ' alt="" class="l-icon" />\n          <p>Photoshop</p>\n        </li>\n        <li>\n          <img src=' + icon.sketchIcon + ' alt="" class="l-icon" />\n          <p>Sketch</p>\n        </li>\n        <li>\n          <img src=' + icon.figmaIcon + ' alt="" class="l-icon" />\n          <p>Figma</p>\n        </li>\n      </div>\n    </ul>\n  </div>\n</div>\n  ');
 }
-},{"./abouticons":17}],36:[function(require,module,exports) {
+},{"./abouticons":16}],42:[function(require,module,exports) {
 module.exports="/github.91c7a472.png";
-},{}],37:[function(require,module,exports) {
+},{}],43:[function(require,module,exports) {
 module.exports="/linkedin-plain.b3478026.png";
-},{}],38:[function(require,module,exports) {
+},{}],44:[function(require,module,exports) {
 module.exports="/slack-plain.fdb4b4f4.png";
-},{}],39:[function(require,module,exports) {
+},{}],45:[function(require,module,exports) {
 module.exports="/twitter-original.eb7f2e38.png";
-},{}],16:[function(require,module,exports) {
+},{}],18:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10964,7 +10964,7 @@ exports.githubIcon = _github2.default;
 exports.linkedinIcon = _linkedinPlain2.default;
 exports.slackIcon = _slackPlain2.default;
 exports.twitterIcon = _twitterOriginal2.default;
-},{"../img/github.png":36,"../img/linkedin-plain.png":37,"../img/slack-plain.png":38,"../img/twitter-original.png":39}],13:[function(require,module,exports) {
+},{"../img/github.png":42,"../img/linkedin-plain.png":43,"../img/slack-plain.png":44,"../img/twitter-original.png":45}],15:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10982,7 +10982,7 @@ function loadContact() {
   $('.wrap').remove();
   $('.content').append('\n    <div class="wrap three">\n      <h1>Email me at:</h1>\n      <h1><span class="s-pink">mosefasad</span>@gmail.com</h1>\n      <h3>You can also find me on:</h3>\n      <div class ="social-icons">\n        <div class="s-icon">\n          <a href="https://github.com/mosef" target="_blank">\n            <img src=' + icon.githubIcon + ' alt="" class="ico g" />\n            <p>Github</p>\n        </a>\n        </div>\n        <div class="s-icon">\n          <a href="https://www.linkedin.com/in/mosef-asad-551ab4b2" target="_blank">\n            <img src=' + icon.linkedinIcon + ' alt="" class="ico l" />\n            <p>LinkedIn</p>\n          </a>\n        </div>\n        <div class="s-icon">\n          <a href="https://twitter.com/MosefAsad" target="_blank">\n            <img src=' + icon.twitterIcon + ' alt="" class="ico t" />\n            <p>Twitter</p>\n          </a>\n        </div>\n        <div class="s-icon">\n          <a href="https://labcollabworkspace.slack.com/" target="_blank">\n            <img src=' + icon.slackIcon + ' alt="" class="ico s" />\n            <p>Slack</p>\n          </a>\n        </div>\n      </div>\n    </div>\n  ');
 }
-},{"./socialicons":16}],5:[function(require,module,exports) {
+},{"./socialicons":18}],4:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -11027,7 +11027,7 @@ function menuToggle() {
     }
   });
 }
-},{"./home":4,"./about":12,"./projects":11,"./contact":13}],2:[function(require,module,exports) {
+},{"./home":5,"./about":13,"./projects":14,"./contact":15}],2:[function(require,module,exports) {
 'use strict';
 
 var _jquery = require('jquery');
@@ -11052,7 +11052,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   (0, _home2.default)();
   (0, _nav2.default)();
 });
-},{"jquery":6,"normalize.css":7,"./src/css/index.css":3,"./src/js/nav":5,"./src/js/home":4}],44:[function(require,module,exports) {
+},{"jquery":8,"normalize.css":7,"./src/css/index.css":3,"./src/js/nav":4,"./src/js/home":5}],46:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -11082,7 +11082,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '50580' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '51091' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -11221,5 +11221,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[44,2])
+},{}]},{},[46,2])
 //# sourceMappingURL=/portfolio-c.933c7317.map

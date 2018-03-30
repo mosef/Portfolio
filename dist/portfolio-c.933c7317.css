@@ -359,7 +359,7 @@ body {
     grid-column: 1/13;
     grid-row: 1/5;
     width: 100vw;
-    height: 93.5vh;
+    height: 100vh;
     background-image: url("Background.1c1f3c9c.png");
     background-size: cover;
     background-repeat: no-repeat; }
@@ -368,6 +368,9 @@ body {
         grid-column: 1/1;
         grid-row: 1/1;
         height: 100vh; } }
+    @media only screen and (min-width: 64em) and (max-width: 1365px) {
+      .container header {
+        height: 94.9vh; } }
     .container header .intro {
       display: grid;
       grid-template-columns: repeat(12, 1fr);
@@ -451,25 +454,31 @@ body {
           grid-template-columns: repeat(1, 1fr); } }
       .container main .wrap.one .about-wrapper {
         margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center; }
         .container main .wrap.one .about-wrapper h1 {
           font-weight: 300; }
-        @media only screen and (min-width: 85.375em) and (max-width: 120em) {
-          .container main .wrap.one .about-wrapper p {
-            padding: 50px;
-            line-height: 1.45em;
-            font-weight: 200; } }
-        @media only screen and (min-width: 64em) and (max-width: 1365px) {
-          .container main .wrap.one .about-wrapper p {
-            padding: 35px;
-            line-height: 1.45em;
-            font-weight: 200; } }
+        .container main .wrap.one .about-wrapper p {
+          max-width: 500px;
+          line-height: 1.45em;
+          font-weight: 200; }
         @media only screen and (min-width: 320px) and (max-width: 26.875em) {
           .container main .wrap.one .about-wrapper {
             grid-column: 1/1;
             grid-row: 1/1; }
             .container main .wrap.one .about-wrapper p {
               padding: 5px; } }
+        @media only screen and (min-width: 64em) and (max-width: 1365px) {
+          .container main .wrap.one .about-wrapper p {
+            padding: 35px;
+            line-height: 1.45em;
+            font-weight: 200; } }
+        @media only screen and (min-width: 85.375em) and (max-width: 120em) {
+          .container main .wrap.one .about-wrapper p {
+            padding: 50px;
+            line-height: 1.45em;
+            font-weight: 200; } }
         .container main .wrap.one .about-wrapper .profile-pic {
           background-image: url("profile.5e24aad5.jpg");
           background-size: contain;

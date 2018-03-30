@@ -23,11 +23,14 @@ body {
     grid-column: 1/13;
     grid-row: 1/5;
     width: 100vw;
-    height: 93.5vh;
+    height: 100vh;
     @include mobile {
       grid-column: 1/1;
       grid-row: 1/1;
       height: 100vh;
+    }
+    @include tablet {
+      height: 94.9vh;
     }
     background-image: url('../img/Background.png');
     background-size: cover;
@@ -130,15 +133,22 @@ body {
         grid-template-columns: repeat(1, 1fr);
       }
       .about-wrapper {
-        margin-top: 20px; 
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
         h1 {
           font-weight: 300;
         }
-        @include desktop {
+        p {
+          max-width: 500px;
+          line-height: 1.45em;
+          font-weight: 200;
+        }
+        @include mobile {
+          grid-column: 1/1;
+          grid-row: 1/1;
           p {
-            padding: 50px;
-            line-height: 1.45em;
-            font-weight: 200;
+            padding: 5px;
           }
         }
         @include tablet {
@@ -148,11 +158,11 @@ body {
             font-weight: 200;
           }
         }
-        @include mobile {
-          grid-column: 1/1;
-          grid-row: 1/1;
+        @include desktop {
           p {
-            padding: 5px;
+            padding: 50px;
+            line-height: 1.45em;
+            font-weight: 200;
           }
         }
         text-align: center;
