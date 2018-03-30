@@ -25,6 +25,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/0b1b58cac85d175c6029414f67cb793c.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/0b1b58cac85d175c6029414f67cb793c-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/0f505d1ff4cc942326a0bc0df8e02b7e.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -101,6 +109,14 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/2f4361d86ed800f8c25a818aa80b60cc-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/30860de1958697eeb3fa2cf8bb7d079b.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/30860de1958697eeb3fa2cf8bb7d079b-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -193,6 +209,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/67fc4ae472f2451e6a8d691aef5ed491.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/67fc4ae472f2451e6a8d691aef5ed491-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/6c353e74d545bd567527a76f4ddfc7a9.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -273,6 +297,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/9d06e4d430eb7209135f6b7a29175a2f.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/9d06e4d430eb7209135f6b7a29175a2f-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/a1964ed4a9d6bb2691e726f1a6a22948.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -325,6 +357,14 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/ada4f961999313229090307015378da8-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/b372327a3450b55e092b92aa2ecefcef.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/b372327a3450b55e092b92aa2ecefcef-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -393,6 +433,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/d3119c12497a6184ffbea00c6066cf35.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/d3119c12497a6184ffbea00c6066cf35-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/d46a4948c566f5877b6ed4229605ea19.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -429,6 +477,14 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/ef230fb45bc8117a488daf8183f91a9a-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/fa3a5759057001628065f795510d11b5.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/fa3a5759057001628065f795510d11b5-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -530,17 +586,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/src\/img\/apolloGraphql.png": {
-		"ft": 32768,
-		"iS": 4927,
-		"oA": 0,
-		"oAP": "\/src\/img\/apolloGraphql.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/src\/img\/Background.png": {
 		"ft": 32768,
 		"iS": 1945862,
@@ -607,11 +652,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/img\/graphql.png": {
+	"\/src\/img\/github.png": {
 		"ft": 32768,
-		"iS": 5408,
+		"iS": 1211,
 		"oA": 0,
-		"oAP": "\/src\/img\/graphql.png",
+		"oAP": "\/src\/img\/github.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -662,11 +707,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/img\/meteor-plain.png": {
+	"\/src\/img\/linkedin-plain.png": {
 		"ft": 32768,
-		"iS": 7465,
+		"iS": 649,
 		"oA": 0,
-		"oAP": "\/src\/img\/meteor-plain.png",
+		"oAP": "\/src\/img\/linkedin-plain.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -714,17 +759,6 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/src\/img\/parcellogo.png": {
-		"ft": 32768,
-		"iS": 3996,
-		"oA": 0,
-		"oAP": "\/src\/img\/parcellogo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -783,6 +817,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/img\/slack-plain.png": {
+		"ft": 32768,
+		"iS": 1257,
+		"oA": 0,
+		"oAP": "\/src\/img\/slack-plain.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/img\/travisci.png": {
 		"ft": 32768,
 		"iS": 3786,
@@ -791,6 +836,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/img\/twitter-original.png": {
+		"ft": 32768,
+		"iS": 983,
+		"oA": 0,
+		"oAP": "\/src\/img\/twitter-original.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -805,34 +861,22 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/img\/vuejs-original.png": {
-		"ft": 32768,
-		"iS": 4617,
-		"oA": 0,
-		"oAP": "\/src\/img\/vuejs-original.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/src\/img\/webpack-original.png": {
-		"ft": 32768,
-		"iS": 5198,
-		"oA": 0,
-		"oAP": "\/src\/img\/webpack-original.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/src\/js\/about.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/src\/js\/about-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/src\/js\/abouticons.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/src\/js\/abouticons-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -857,16 +901,6 @@
 		"sC": 3,
 		"tS": 1
 		},
-	"\/src\/js\/images.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/src\/js\/images-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
 	"\/src\/js\/nav.js": {
 		"ft": 64,
 		"ma": 0,
@@ -877,12 +911,32 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"\/src\/js\/projecticons.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/src\/js\/projecticons-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"\/src\/js\/projects.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
 		"oA": 1,
 		"oAP": "\/src\/js\/projects-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/src\/js\/socialicons.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/src\/js\/socialicons-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1

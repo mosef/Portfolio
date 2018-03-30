@@ -15,16 +15,6 @@ import illustratorIcon from '../img/illustrator-plain.png';
 import photoshopIcon from '../img/photoshop-plain.png';
 import sketchIcon from '../img/sketch-line.png';
 import figmaIcon from '../img/figma.png';
-import bingeOnIcon from '../img/binge.png';
-import minionManagerIcon from '../img/minion.png';
-import typeQuickIcon from '../img/typequick.png';
-import webpackIcon from '../img/webpack-original.png';
-import vueIcon from '../img/vuejs-original.png';
-import graphqIcon from '../img/graphql.png';
-import meteorIcon from '../img/meteor-plain.png';
-import apolloIcon from '../img/apolloGraphql.png';
-import parcelIcon from '../img/parcellogo.png';
-
 
 export {
   reactIcon,
@@ -44,7 +34,4 @@ export {
   photoshopIcon,
   sketchIcon,
   figmaIcon,
-  bingeOnIcon,
-  minionManagerIcon,
-  typeQuickIcon,
 }

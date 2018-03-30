@@ -1,4 +1,4 @@
-import * as icon from './images';
+import * as icon from './abouticons';
 
 export default function loadAbout() {
   $('.wrap').remove();

@@ -1,4 +1,4 @@
-import loadHome from './home'
+import loadHome from './home';
 import loadAbout from './about';
 import loadProjects from './projects';
 import loadContact from './contact';
@@ -6,7 +6,7 @@ import loadContact from './contact';
 export default function menuToggle() {
   $('.nav-list').on('click', '#home, #about, #projects, #contact', (e) => {
     e.preventDefault();
-    const id = e.target.id;
+    const { id } = e.target;
     if (id === 'home') {
       loadHome();
     }
