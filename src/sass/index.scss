@@ -54,7 +54,6 @@ body {
           margin-top: 8rem;
         }
         h1, h2 {
-          font-family: Montserrat;
           font-weight: 300;
           font-size: 2.500em;
           @include mobile {
@@ -246,6 +245,12 @@ body {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: minmax(100px, auto);
+      .demo-links {
+        margin-top: 1.2rem;
+        a {
+          text-decoration: none;
+        }
+      }
       .project {
         display: inline-block;
         text-align: center;
@@ -272,6 +277,16 @@ body {
           width: 90%;
         }
       }
+      @include odd {
+        display: block;
+        text-align: center;
+        h1 {
+          font-size: 2.4em;
+        }
+        .p-icon {
+          width: 55%;
+        }
+      }
       @include mobile {
         text-align: center;
         display: block;
@@ -279,6 +294,7 @@ body {
           font-size: 2.4em;
         }
         .preview {
+          display: block;
           position: absolute;
           background-color: rgba(38, 39, 41, 0.201);
           height: 37.52%;
@@ -298,6 +314,11 @@ body {
         .p-icon {
         position: relative;
         width: 100%;
+        }
+        @include mobile-landscape {
+          .p-icon {
+            width: 22%;
+          }
         }
       }
     }

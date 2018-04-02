@@ -4,7 +4,7 @@ html {
   padding: 0; }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   min-width: 320px; }
   body .s-pink {
     color: #E31B6D; }
@@ -49,7 +49,6 @@ body {
             text-align: center;
             margin-top: 8rem; } }
         .container header .intro .text-wrap h1, .container header .intro .text-wrap h2 {
-          font-family: Montserrat;
           font-weight: 300;
           font-size: 2.500em; }
           @media only screen and (min-width: 320px) and (max-width: 26.875em) {
@@ -199,6 +198,10 @@ body {
         font-weight: 200;
         padding: 20px;
         line-height: 1.4em; }
+      .container main .wrap.two .demo-links {
+        margin-top: 1.2rem; }
+        .container main .wrap.two .demo-links a {
+          text-decoration: none; }
       .container main .wrap.two .project {
         display: inline-block;
         text-align: center; }
@@ -216,6 +219,14 @@ body {
       @media only screen and (min-width: 64em) and (max-width: 1365px) {
         .container main .wrap.two .p-icon {
           width: 90%; } }
+      @media only screen and (min-width: 431px) and (max-width: 1023px) {
+        .container main .wrap.two {
+          display: block;
+          text-align: center; }
+          .container main .wrap.two h1 {
+            font-size: 2.4em; }
+          .container main .wrap.two .p-icon {
+            width: 55%; } }
       @media only screen and (min-width: 320px) and (max-width: 26.875em) {
         .container main .wrap.two {
           text-align: center;
@@ -223,6 +234,7 @@ body {
           .container main .wrap.two h1 {
             font-size: 2.4em; }
           .container main .wrap.two .preview {
+            display: block;
             position: absolute;
             background-color: rgba(38, 39, 41, 0.201);
             height: 37.52%;
@@ -239,6 +251,9 @@ body {
           .container main .wrap.two .p-icon {
             position: relative;
             width: 100%; } }
+  @media only screen and (min-width: 320px) and (max-width: 26.875em) and (min-width: 320px) and (max-width: 26.875em) and (orientation: landscape) {
+    .container main .wrap.two .p-icon {
+      width: 22%; } }
     .container main .wrap.three {
       text-align: center; }
       .container main .wrap.three a {
