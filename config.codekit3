@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "26330",
 "files": {
+	"\/.cache\/049930eddb44f03cb0121b0abc0c120b.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/049930eddb44f03cb0121b0abc0c120b-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/04d2c41f513fc434f5a905aa2fe5d26d.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -41,6 +49,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/0b3c8e8635382e2844500bf609b4e9ff.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/0b3c8e8635382e2844500bf609b4e9ff-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/0ec0d1d5e8e54effe419e08db2274040.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -69,6 +85,14 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/14c6080e7d11528b7069c663ae8ff5d0-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/186d7d114a29c4087f715cdf41f3431f.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/186d7d114a29c4087f715cdf41f3431f-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -157,6 +181,22 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/2644e2e949bf7356e9b16f78614a8347-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/274fe14a0feb5a8c8b1ecdbca3bfe568.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/274fe14a0feb5a8c8b1ecdbca3bfe568-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/27b5a42c7cb65e180744b5ed4c8946e9.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/27b5a42c7cb65e180744b5ed4c8946e9-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -313,6 +353,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/4f4d6f759010e4b65b5d3f30fe993308.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/4f4d6f759010e4b65b5d3f30fe993308-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/5068c87d358ff17ab69957e124ec682d.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -357,6 +405,14 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/5fb45e5dc52a2ec5532000258b41934f-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/6574f453bf6e48e3e8e23ebaa0738619.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/6574f453bf6e48e3e8e23ebaa0738619-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -437,6 +493,14 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/787d924f0f962027bdf5a244b57b8f0a-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/78e4b310d91399c9db8ec9c2e32ac35f.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/78e4b310d91399c9db8ec9c2e32ac35f-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -529,6 +593,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/94837b64c2c81850c232af782620ca31.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/94837b64c2c81850c232af782620ca31-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/96bea14e914a302b791bfd7a27c31a8d.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -609,6 +681,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/ac4bb6c0797da79796e5ac0d2f1461cc.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/ac4bb6c0797da79796e5ac0d2f1461cc-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/ada4f961999313229090307015378da8.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -645,6 +725,22 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/b531b71b73a40e93839a27c80bf1f99d-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/b678964bcf02b1c57c1b825e2a2fa3cb.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/b678964bcf02b1c57c1b825e2a2fa3cb-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/b69eec8e5f844ae0810c0d85a46e016c.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/b69eec8e5f844ae0810c0d85a46e016c-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -713,6 +809,22 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/cedf533fa88784e8579a65c4e472f805.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/cedf533fa88784e8579a65c4e472f805-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/d0f1c8f43f9ee2cc1ab5eb368465547a.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/d0f1c8f43f9ee2cc1ab5eb368465547a-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/d2fc298fb4e937864414c81f84b2a350.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -733,6 +845,14 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/d46a4948c566f5877b6ed4229605ea19-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/d674ec6b0ec915048b1fc39e3c095594.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/d674ec6b0ec915048b1fc39e3c095594-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -761,10 +881,26 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/.cache\/e136be99dbe229bd0f86eaf752def6cd.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/e136be99dbe229bd0f86eaf752def6cd-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/.cache\/e8a0b12231bdffa8106aa4e7ca7a1ffb.json": {
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/e8a0b12231bdffa8106aa4e7ca7a1ffb-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/eb0ff797a5122d6f078dcaf84aa69697.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/eb0ff797a5122d6f078dcaf84aa69697-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -797,6 +933,14 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/efa79df0eb8df45b0ebd68677c9c9188-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.cache\/f6be74ec4a7eb5b328cb02ae31474df0.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.cache\/f6be74ec4a7eb5b328cb02ae31474df0-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -861,6 +1005,218 @@
 		"oA": 1,
 		"oAP": "\/build\/dist",
 		"oF": 0
+		},
+	"\/favicons\/apple-touch-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 11545,
+		"oA": 0,
+		"oAP": "\/favicons\/apple-touch-icon-114x114.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/apple-touch-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 9271,
+		"oA": 0,
+		"oAP": "\/favicons\/apple-touch-icon-120x120.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/apple-touch-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 10108,
+		"oA": 0,
+		"oAP": "\/favicons\/apple-touch-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/apple-touch-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 15368,
+		"oA": 0,
+		"oAP": "\/favicons\/apple-touch-icon-152x152.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/apple-touch-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 3294,
+		"oA": 0,
+		"oAP": "\/favicons\/apple-touch-icon-57x57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/apple-touch-icon-60x60.png": {
+		"ft": 32768,
+		"iS": 3550,
+		"oA": 0,
+		"oAP": "\/favicons\/apple-touch-icon-60x60.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/apple-touch-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 3861,
+		"oA": 0,
+		"oAP": "\/favicons\/apple-touch-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/apple-touch-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 5200,
+		"oA": 0,
+		"oAP": "\/favicons\/apple-touch-icon-76x76.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/code.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/favicons\/code.txt",
+		"oF": 0
+		},
+	"\/favicons\/favicon-128.png": {
+		"ft": 32768,
+		"iS": 4933,
+		"oA": 0,
+		"oAP": "\/favicons\/favicon-128.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 514,
+		"oA": 0,
+		"oAP": "\/favicons\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/favicon-196x196.png": {
+		"ft": 32768,
+		"iS": 30787,
+		"oA": 0,
+		"oAP": "\/favicons\/favicon-196x196.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1065,
+		"oA": 0,
+		"oAP": "\/favicons\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 4507,
+		"oA": 0,
+		"oAP": "\/favicons\/favicon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/favicons\/favicon.ico",
+		"oF": 0
+		},
+	"\/favicons\/mstile-144x144.png": {
+		"ft": 32768,
+		"iS": 10108,
+		"oA": 0,
+		"oAP": "\/favicons\/mstile-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 54084,
+		"oA": 0,
+		"oAP": "\/favicons\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/mstile-310x150.png": {
+		"ft": 32768,
+		"iS": 107885,
+		"oA": 0,
+		"oAP": "\/favicons\/mstile-310x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/mstile-310x310.png": {
+		"ft": 32768,
+		"iS": 190391,
+		"oA": 0,
+		"oAP": "\/favicons\/mstile-310x310.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/mstile-70x70.png": {
+		"ft": 32768,
+		"iS": 4933,
+		"oA": 0,
+		"oAP": "\/favicons\/mstile-70x70.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/index.html": {
 		"cB": 0,
@@ -1074,8 +1430,8 @@
 		"oA": 0,
 		"oAP": "\/src\/img\/minion.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

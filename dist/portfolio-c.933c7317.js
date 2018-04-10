@@ -77,7 +77,7 @@ parcelRequire = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({12:[function(require,module,exports) {
+})({68:[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {};
@@ -264,7 +264,7 @@ process.chdir = function (dir) {
 process.umask = function () {
     return 0;
 };
-},{}],6:[function(require,module,exports) {
+},{}],64:[function(require,module,exports) {
 var global = (1,eval)("this");
 var process = require("process");
 /*!
@@ -10632,7 +10632,7 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-},{"process":12}],17:[function(require,module,exports) {
+},{"process":68}],72:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -10662,7 +10662,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],9:[function(require,module,exports) {
+},{}],65:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -10693,25 +10693,25 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":17}],7:[function(require,module,exports) {
+},{"./bundle-url":72}],62:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":9}],3:[function(require,module,exports) {
+},{"_css_loader":65}],59:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../img/Background.png":[["Background.1c1f3c9c.png",10],10],"./../img/profile.jpg":[["profile.5e24aad5.jpg",11],11],"_css_loader":9}],20:[function(require,module,exports) {
+},{"./../img/Background.png":[["Background.1c1f3c9c.png",66],66],"./../img/profile.jpg":[["profile.5e24aad5.jpg",67],67],"_css_loader":65}],80:[function(require,module,exports) {
 module.exports="/binge.6f76e72d.png";
-},{}],21:[function(require,module,exports) {
+},{}],81:[function(require,module,exports) {
 module.exports="/minion.db220038.png";
-},{}],22:[function(require,module,exports) {
+},{}],82:[function(require,module,exports) {
 module.exports="/typequick.da391f04.png";
-},{}],18:[function(require,module,exports) {
+},{}],74:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10736,7 +10736,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.bingeOnIcon = _binge2.default;
 exports.minionManagerIcon = _minion2.default;
 exports.typeQuickIcon = _typequick2.default;
-},{"../img/binge.png":20,"../img/minion.png":21,"../img/typequick.png":22}],14:[function(require,module,exports) {
+},{"../img/binge.png":80,"../img/minion.png":81,"../img/typequick.png":82}],70:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10754,7 +10754,7 @@ function loadProjects() {
   $('.wrap').remove();
   $('.content').append('\n    <div class="wrap two">\n      <h1>Projects</h1>\n      <div class="project one">\n        <h3>Binge On</h3>\n        <a href="https://mosef.github.io/BingeOn/" target="_blank">\n          <div class ="preview">\n            <p>View Project</p>\n          </div>\n          <img src=' + icon.bingeOnIcon + ' alt="" class="p-icon" />\n        </a>\n        <div class ="demo-links">\n          <a href="https://github.com/mosef/BingeOn" target="_blank">Github</a>\n          <span>|</span>\n          <a href="https://mosef.github.io/BingeOn/" target="_blank">Demo</a>\n        </div>\n        <p>Finished watching a show? Try finding similar shows to watch with a video\n          preview. Built using the YouTube API and TasteDive API.\n        </p>\n      </div>\n      <div class="project two">\n        <h3>Minion Manager</h3>\n        <a href="https://sheltered-coast-97878.herokuapp.com/" target="_blank">\n          <div class ="preview">\n            <p>View Project</p>\n          </div>\n          <img src=' + icon.minionManagerIcon + ' alt="" class="p-icon" />\n        </a>\n        <div class ="demo-links">\n          <a href="https://github.com/mosef/minionmanager" target="_blank">Github</a>\n          <span>|</span>\n          <a href="https://sheltered-coast-97878.herokuapp.com/" target="_blank">Demo</a>\n        </div>\n        <p> An Express app that helps table top hosts keep track of relevant player\n        data while preventing players from editing the data between sessions.\n        </p>\n      </div>\n      <div class="project three">\n      <h3>TypeQuick</h3>\n        <a href="https://typequick.netlify.com/" target="_blank">\n          <div class ="preview">\n            <p>View Project</p>\n          </div>\n          <img src=' + icon.typeQuickIcon + ' alt="" class="p-icon" />\n        </a>\n        <div class ="demo-links">\n          <a href="https://github.com/mosef/typequick" target="_blank">Github</a>\n          <span>|</span>\n          <a href="https://typequick.netlify.com/" target="_blank">Demo</a>\n        </div>\n        <p>A MERN stack app that helps developers code faster through learning\n        syntax shortcuts and code challenges. You can keep track of your progress\n        through chart data that shows your fastest challenge times.\n        </p>\n      </div>\n    </div>\n  ');
 }
-},{"./projecticons":18}],5:[function(require,module,exports) {
+},{"./projecticons":74}],61:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10779,41 +10779,41 @@ function loadHome() {
     (0, _projects2.default)();
   });
 }
-},{"./projects":14}],28:[function(require,module,exports) {
+},{"./projects":70}],83:[function(require,module,exports) {
 module.exports="/react.b8c1a880.png";
-},{}],29:[function(require,module,exports) {
+},{}],84:[function(require,module,exports) {
 module.exports="/redux.98d1cf33.png";
-},{}],30:[function(require,module,exports) {
+},{}],85:[function(require,module,exports) {
 module.exports="/js.c469f5f2.png";
-},{}],31:[function(require,module,exports) {
+},{}],87:[function(require,module,exports) {
 module.exports="/jquery.eed24ebb.png";
-},{}],32:[function(require,module,exports) {
+},{}],86:[function(require,module,exports) {
 module.exports="/git.261e5d55.png";
-},{}],33:[function(require,module,exports) {
+},{}],88:[function(require,module,exports) {
 module.exports="/sass.41125701.png";
-},{}],34:[function(require,module,exports) {
+},{}],89:[function(require,module,exports) {
 module.exports="/css.93ebbcd3.png";
-},{}],35:[function(require,module,exports) {
+},{}],90:[function(require,module,exports) {
 module.exports="/html5.06146883.png";
-},{}],36:[function(require,module,exports) {
+},{}],91:[function(require,module,exports) {
 module.exports="/nodejs-icon.3d165122.png";
-},{}],37:[function(require,module,exports) {
+},{}],92:[function(require,module,exports) {
 module.exports="/express-original.ced93f1f.png";
-},{}],38:[function(require,module,exports) {
+},{}],93:[function(require,module,exports) {
 module.exports="/mongodb-plain.c1ef927c.png";
-},{}],39:[function(require,module,exports) {
+},{}],94:[function(require,module,exports) {
 module.exports="/mocha-plain.a0a956c1.png";
-},{}],40:[function(require,module,exports) {
+},{}],95:[function(require,module,exports) {
 module.exports="/travisci.c4bc0a02.png";
-},{}],41:[function(require,module,exports) {
+},{}],96:[function(require,module,exports) {
 module.exports="/illustrator-plain.143daf77.png";
-},{}],42:[function(require,module,exports) {
+},{}],97:[function(require,module,exports) {
 module.exports="/photoshop-plain.0928b997.png";
-},{}],43:[function(require,module,exports) {
+},{}],98:[function(require,module,exports) {
 module.exports="/sketch-line.dd84d6aa.png";
-},{}],44:[function(require,module,exports) {
+},{}],99:[function(require,module,exports) {
 module.exports="/figma.ec4b4a9f.png";
-},{}],27:[function(require,module,exports) {
+},{}],75:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10908,7 +10908,7 @@ exports.illustratorIcon = _illustratorPlain2.default;
 exports.photoshopIcon = _photoshopPlain2.default;
 exports.sketchIcon = _sketchLine2.default;
 exports.figmaIcon = _figma2.default;
-},{"../img/react.png":28,"../img/redux.png":29,"../img/js.png":30,"../img/jquery.png":31,"../img/git.png":32,"../img/sass.png":33,"../img/css.png":34,"../img/html5.png":35,"../img/nodejs-icon.png":36,"../img/express-original.png":37,"../img/mongodb-plain.png":38,"../img/mocha-plain.png":39,"../img/travisci.png":40,"../img/illustrator-plain.png":41,"../img/photoshop-plain.png":42,"../img/sketch-line.png":43,"../img/figma.png":44}],13:[function(require,module,exports) {
+},{"../img/react.png":83,"../img/redux.png":84,"../img/js.png":85,"../img/jquery.png":87,"../img/git.png":86,"../img/sass.png":88,"../img/css.png":89,"../img/html5.png":90,"../img/nodejs-icon.png":91,"../img/express-original.png":92,"../img/mongodb-plain.png":93,"../img/mocha-plain.png":94,"../img/travisci.png":95,"../img/illustrator-plain.png":96,"../img/photoshop-plain.png":97,"../img/sketch-line.png":98,"../img/figma.png":99}],69:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10926,15 +10926,15 @@ function loadAbout() {
   $('.wrap').remove();
   $('.content').append('\n<div class="wrap one">\n  <div class="about-wrapper">\n    <h1>About</h1>\n    <div class="profile-pic"></div>\n    <p> I\'m a MERN stack developer and web tech enthusiast. Any time \n      there\'s an update in a language or framework I\'m watching the demos, \n      taking notes, and thinking of what to build next. Building lends\n      itself to participating in discussion channels, or working in groups with \n      other developers which is exciting. If I\'m not working on anything I \n      play some games online, read, or maybe indulge in a few table top games.\n    </p>\n  </div>\n  <div class="lang-grid">\n    <ul class="icon-list">\n      <div class="front-end">\n        <h3>Front End</h3>\n        <li>\n          <img src=' + icon.reactIcon + ' alt="" class="l-icon" />\n          <p>React</p>\n        </li>\n        <li>\n          <img src=' + icon.reduxIcon + ' alt="" class="l-icon" />\n          <p>Redux</p>\n        </li>\n        <li>\n          <img src=' + icon.jsIcon + ' alt="" class="l-icon" />\n          <p>JavaScript</p>\n        </li>\n        <li>\n          <img src=' + icon.jqueryIcon + ' alt="" class="l-icon" />\n          <p>jQuery</p>\n        </li>\n        <li>\n          <img src=' + icon.gitIcon + ' alt="" class="l-icon" />\n          <p>Git</p>\n        </li>\n        <li>\n          <img src=' + icon.sassIcon + ' alt="" class="l-icon" />\n          <p>Sass</p>\n        </li>\n        <li>\n          <img src=' + icon.cssIcon + ' alt="" class="l-icon" />\n          <p>CSS3</p>\n        </li>\n        <li>\n          <img src=' + icon.htmlIcon + ' alt="" class="l-icon" />\n          <p>HTML5</p>\n        </li>\n      </div>\n      <div class="back-end">\n        <h3>Back End</h3>\n        <li>\n          <img src=' + icon.nodeIcon + ' alt="" class="l-icon" />\n          <p>Node</p>\n        </li>\n        <li>\n          <img src=' + icon.expressIcon + ' alt="" class="l-icon" />\n          <p>Express</p>\n        </li>\n        <li>\n          <img src=' + icon.mongoDbIcon + ' alt="" class="l-icon leaf" />\n          <p>MongoDb</p>\n        </li>\n        <li>\n          <img src=' + icon.mochaIcon + ' alt="" class="l-icon" />\n          <p>Mocha</p>\n        </li>\n        <li>\n          <img src=' + icon.travisIcon + ' alt="" class="l-icon" />\n          <p>Travis CI</p>\n        </li>\n      </div>\n      <div class="design-tools">\n        <div class="break"></div>\n        <h3>Design Tools</h3>\n        <li>\n          <img src=' + icon.illustratorIcon + ' alt="" class="l-icon" />\n          <p>illustrator</p>\n        </li>\n        <li>\n          <img src=' + icon.photoshopIcon + ' alt="" class="l-icon" />\n          <p>Photoshop</p>\n        </li>\n        <li>\n          <img src=' + icon.sketchIcon + ' alt="" class="l-icon" />\n          <p>Sketch</p>\n        </li>\n        <li>\n          <img src=' + icon.figmaIcon + ' alt="" class="l-icon" />\n          <p>Figma</p>\n        </li>\n      </div>\n    </ul>\n  </div>\n</div>\n  ');
 }
-},{"./abouticons":27}],23:[function(require,module,exports) {
+},{"./abouticons":75}],76:[function(require,module,exports) {
 module.exports="/github.91c7a472.png";
-},{}],24:[function(require,module,exports) {
+},{}],78:[function(require,module,exports) {
 module.exports="/linkedin-plain.b3478026.png";
-},{}],25:[function(require,module,exports) {
+},{}],77:[function(require,module,exports) {
 module.exports="/slack-plain.fdb4b4f4.png";
-},{}],26:[function(require,module,exports) {
+},{}],79:[function(require,module,exports) {
 module.exports="/twitter-original.eb7f2e38.png";
-},{}],19:[function(require,module,exports) {
+},{}],73:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10964,7 +10964,7 @@ exports.githubIcon = _github2.default;
 exports.linkedinIcon = _linkedinPlain2.default;
 exports.slackIcon = _slackPlain2.default;
 exports.twitterIcon = _twitterOriginal2.default;
-},{"../img/github.png":23,"../img/linkedin-plain.png":24,"../img/slack-plain.png":25,"../img/twitter-original.png":26}],15:[function(require,module,exports) {
+},{"../img/github.png":76,"../img/linkedin-plain.png":78,"../img/slack-plain.png":77,"../img/twitter-original.png":79}],71:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10982,7 +10982,7 @@ function loadContact() {
   $('.wrap').remove();
   $('.content').append('\n    <div class="wrap three">\n      <h1>Email me at:</h1>\n      <h1><span class="s-pink">mosefasad</span>@gmail.com</h1>\n      <h3>You can also find me on:</h3>\n      <div class ="social-icons">\n        <div class="s-icon">\n          <a href="https://github.com/mosef" target="_blank">\n            <img src=' + icon.githubIcon + ' alt="" class="ico g" />\n            <p>Github</p>\n        </a>\n        </div>\n        <div class="s-icon">\n          <a href="https://www.linkedin.com/in/mosef-asad-551ab4b2" target="_blank">\n            <img src=' + icon.linkedinIcon + ' alt="" class="ico l" />\n            <p>LinkedIn</p>\n          </a>\n        </div>\n        <div class="s-icon">\n          <a href="https://twitter.com/MosefAsad" target="_blank">\n            <img src=' + icon.twitterIcon + ' alt="" class="ico t" />\n            <p>Twitter</p>\n          </a>\n        </div>\n        <div class="s-icon">\n          <a href="https://labcollabworkspace.slack.com/" target="_blank">\n            <img src=' + icon.slackIcon + ' alt="" class="ico s" />\n            <p>Slack</p>\n          </a>\n        </div>\n      </div>\n    </div>\n  ');
 }
-},{"./socialicons":19}],4:[function(require,module,exports) {
+},{"./socialicons":73}],60:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -11027,7 +11027,7 @@ function menuToggle() {
     }
   });
 }
-},{"./home":5,"./about":13,"./projects":14,"./contact":15}],8:[function(require,module,exports) {
+},{"./home":61,"./about":69,"./projects":70,"./contact":71}],63:[function(require,module,exports) {
 /* Web Font Loader v1.6.28 - (c) Adobe Systems, Google. License: Apache 2.0 */(function(){function aa(a,b,c){return a.call.apply(a.bind,arguments)}function ba(a,b,c){if(!a)throw Error();if(2<arguments.length){var d=Array.prototype.slice.call(arguments,2);return function(){var c=Array.prototype.slice.call(arguments);Array.prototype.unshift.apply(c,d);return a.apply(b,c)}}return function(){return a.apply(b,arguments)}}function p(a,b,c){p=Function.prototype.bind&&-1!=Function.prototype.bind.toString().indexOf("native code")?aa:ba;return p.apply(null,arguments)}var q=Date.now||function(){return+new Date};function ca(a,b){this.a=a;this.o=b||a;this.c=this.o.document}var da=!!window.FontFace;function t(a,b,c,d){b=a.c.createElement(b);if(c)for(var e in c)c.hasOwnProperty(e)&&("style"==e?b.style.cssText=c[e]:b.setAttribute(e,c[e]));d&&b.appendChild(a.c.createTextNode(d));return b}function u(a,b,c){a=a.c.getElementsByTagName(b)[0];a||(a=document.documentElement);a.insertBefore(c,a.lastChild)}function v(a){a.parentNode&&a.parentNode.removeChild(a)}
 function w(a,b,c){b=b||[];c=c||[];for(var d=a.className.split(/\s+/),e=0;e<b.length;e+=1){for(var f=!1,g=0;g<d.length;g+=1)if(b[e]===d[g]){f=!0;break}f||d.push(b[e])}b=[];for(e=0;e<d.length;e+=1){f=!1;for(g=0;g<c.length;g+=1)if(d[e]===c[g]){f=!0;break}f||b.push(d[e])}a.className=b.join(" ").replace(/\s+/g," ").replace(/^\s+|\s+$/,"")}function y(a,b){for(var c=a.className.split(/\s+/),d=0,e=c.length;d<e;d++)if(c[d]==b)return!0;return!1}
 function ea(a){return a.o.location.hostname||a.a.location.hostname}function z(a,b,c){function d(){m&&e&&f&&(m(g),m=null)}b=t(a,"link",{rel:"stylesheet",href:b,media:"all"});var e=!1,f=!0,g=null,m=c||null;da?(b.onload=function(){e=!0;d()},b.onerror=function(){e=!0;g=Error("Stylesheet failed to load");d()}):setTimeout(function(){e=!0;d()},0);u(a,"head",b)}
@@ -11046,7 +11046,7 @@ Ca=/^(thin|(?:(?:extra|ultra)-?)?light|regular|book|medium|(?:(?:semi|demi|extra
 function Da(a){for(var b=a.f.length,c=0;c<b;c++){var d=a.f[c].split(":"),e=d[0].replace(/\+/g," "),f=["n4"];if(2<=d.length){var g;var m=d[1];g=[];if(m)for(var m=m.split(","),h=m.length,l=0;l<h;l++){var k;k=m[l];if(k.match(/^[\w-]+$/)){var n=Ca.exec(k.toLowerCase());if(null==n)k="";else{k=n[2];k=null==k||""==k?"n":Ba[k];n=n[1];if(null==n||""==n)n="4";else var r=Aa[n],n=r?r:isNaN(n)?"4":n.substr(0,1);k=[k,n].join("")}}else k="";k&&g.push(k)}0<g.length&&(f=g);3==d.length&&(d=d[2],g=[],d=d?d.split(","):
 g,0<d.length&&(d=za[d[0]])&&(a.c[e]=d))}a.c[e]||(d=za[e])&&(a.c[e]=d);for(d=0;d<f.length;d+=1)a.a.push(new G(e,f[d]))}};function Ea(a,b){this.c=a;this.a=b}var Fa={Arimo:!0,Cousine:!0,Tinos:!0};Ea.prototype.load=function(a){var b=new B,c=this.c,d=new ta(this.a.api,this.a.text),e=this.a.families;va(d,e);var f=new ya(e);Da(f);z(c,wa(d),C(b));E(b,function(){a(f.a,f.c,Fa)})};function Ga(a,b){this.c=a;this.a=b}Ga.prototype.load=function(a){var b=this.a.id,c=this.c.o;b?A(this.c,(this.a.api||"https://use.typekit.net")+"/"+b+".js",function(b){if(b)a([]);else if(c.Typekit&&c.Typekit.config&&c.Typekit.config.fn){b=c.Typekit.config.fn;for(var e=[],f=0;f<b.length;f+=2)for(var g=b[f],m=b[f+1],h=0;h<m.length;h++)e.push(new G(g,m[h]));try{c.Typekit.load({events:!1,classes:!1,async:!0})}catch(l){}a(e)}},2E3):a([])};function Ha(a,b){this.c=a;this.f=b;this.a=[]}Ha.prototype.load=function(a){var b=this.f.id,c=this.c.o,d=this;b?(c.__webfontfontdeckmodule__||(c.__webfontfontdeckmodule__={}),c.__webfontfontdeckmodule__[b]=function(b,c){for(var g=0,m=c.fonts.length;g<m;++g){var h=c.fonts[g];d.a.push(new G(h.name,ga("font-weight:"+h.weight+";font-style:"+h.style)))}a(d.a)},A(this.c,(this.f.api||"https://f.fontdeck.com/s/css/js/")+ea(this.c)+"/"+b+".js",function(b){b&&a([])})):a([])};var Y=new oa(window);Y.a.c.custom=function(a,b){return new sa(b,a)};Y.a.c.fontdeck=function(a,b){return new Ha(b,a)};Y.a.c.monotype=function(a,b){return new ra(b,a)};Y.a.c.typekit=function(a,b){return new Ga(b,a)};Y.a.c.google=function(a,b){return new Ea(b,a)};var Z={load:p(Y.load,Y)};"function"===typeof define&&define.amd?define(function(){return Z}):"undefined"!==typeof module&&module.exports?module.exports=Z:(window.WebFont=Z,window.WebFontConfig&&Y.load(window.WebFontConfig));}());
 
-},{}],2:[function(require,module,exports) {
+},{}],22:[function(require,module,exports) {
 'use strict';
 
 var _jquery = require('jquery');
@@ -11078,7 +11078,7 @@ var WebFont = require('webfontloader');
   (0, _home2.default)();
   (0, _nav2.default)();
 });
-},{"jquery":6,"normalize.css":7,"./src/css/index.css":3,"./src/js/nav":4,"./src/js/home":5,"webfontloader":8}],45:[function(require,module,exports) {
+},{"jquery":64,"normalize.css":62,"./src/css/index.css":59,"./src/js/nav":60,"./src/js/home":61,"webfontloader":63}],100:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -11108,7 +11108,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '52704' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '56835' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -11247,5 +11247,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[45,2])
+},{}]},{},[100,22])
 //# sourceMappingURL=/portfolio-c.933c7317.map
