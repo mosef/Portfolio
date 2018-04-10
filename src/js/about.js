@@ -7,13 +7,12 @@ export default function loadAbout() {
   <div class="about-wrapper">
     <h1>About</h1>
     <div class="profile-pic"></div>
-    <p> I'm a MERN stack developer and an emerging web tech enthusiast. Any time 
-      there's an update in a language or framework I'm there watching the demos, 
+    <p> I'm a MERN stack developer and web tech enthusiast. Any time 
+      there's an update in a language or framework I'm watching the demos, 
       taking notes, and thinking of what to build next. Building lends
-      itself participating in discussion channels, or working in groups with 
+      itself to participating in discussion channels, or working in groups with 
       other developers which is exciting. If I'm not working on anything I 
-      like to play some games online or read, maybe indulge in a few table 
-      top games!
+      play some games online, read, or maybe indulge in a few table top games.
     </p>
   </div>
   <div class="lang-grid">
