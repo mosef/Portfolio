@@ -264,7 +264,7 @@ process.chdir = function (dir) {
 process.umask = function () {
     return 0;
 };
-},{}],6:[function(require,module,exports) {
+},{}],7:[function(require,module,exports) {
 var global = (1,eval)("this");
 var process = require("process");
 /*!
@@ -10693,7 +10693,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":19}],7:[function(require,module,exports) {
+},{"./bundle-url":19}],6:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
@@ -10705,11 +10705,11 @@ module.exports = reloadCSS;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../img/Background.png":[["Background.1c1f3c9c.png",10],10],"./../img/profile.jpg":[["profile.5e24aad5.jpg",11],11],"_css_loader":9}],37:[function(require,module,exports) {
+},{"./../img/Background.png":[["Background.1c1f3c9c.png",10],10],"./../img/profile.jpg":[["profile.5e24aad5.jpg",11],11],"_css_loader":9}],20:[function(require,module,exports) {
 module.exports="/binge.6f76e72d.png";
-},{}],38:[function(require,module,exports) {
+},{}],21:[function(require,module,exports) {
 module.exports="/minion.db220038.png";
-},{}],39:[function(require,module,exports) {
+},{}],22:[function(require,module,exports) {
 module.exports="/typequick.da391f04.png";
 },{}],17:[function(require,module,exports) {
 'use strict';
@@ -10736,7 +10736,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.bingeOnIcon = _binge2.default;
 exports.minionManagerIcon = _minion2.default;
 exports.typeQuickIcon = _typequick2.default;
-},{"../img/binge.png":37,"../img/minion.png":38,"../img/typequick.png":39}],14:[function(require,module,exports) {
+},{"../img/binge.png":20,"../img/minion.png":21,"../img/typequick.png":22}],13:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10779,41 +10779,41 @@ function loadHome() {
     (0, _projects2.default)();
   });
 }
-},{"./projects":14}],20:[function(require,module,exports) {
+},{"./projects":13}],28:[function(require,module,exports) {
 module.exports="/react.b8c1a880.png";
-},{}],21:[function(require,module,exports) {
-module.exports="/redux.98d1cf33.png";
-},{}],22:[function(require,module,exports) {
-module.exports="/js.c469f5f2.png";
-},{}],23:[function(require,module,exports) {
-module.exports="/jquery.eed24ebb.png";
-},{}],24:[function(require,module,exports) {
-module.exports="/git.261e5d55.png";
-},{}],25:[function(require,module,exports) {
-module.exports="/sass.41125701.png";
-},{}],26:[function(require,module,exports) {
-module.exports="/css.93ebbcd3.png";
-},{}],27:[function(require,module,exports) {
-module.exports="/html5.06146883.png";
-},{}],28:[function(require,module,exports) {
-module.exports="/nodejs-icon.3d165122.png";
 },{}],29:[function(require,module,exports) {
-module.exports="/express-original.ced93f1f.png";
+module.exports="/redux.98d1cf33.png";
 },{}],30:[function(require,module,exports) {
-module.exports="/mongodb-plain.c1ef927c.png";
+module.exports="/js.c469f5f2.png";
 },{}],31:[function(require,module,exports) {
-module.exports="/mocha-plain.a0a956c1.png";
+module.exports="/jquery.eed24ebb.png";
 },{}],32:[function(require,module,exports) {
-module.exports="/travisci.c4bc0a02.png";
+module.exports="/git.261e5d55.png";
 },{}],33:[function(require,module,exports) {
-module.exports="/illustrator-plain.143daf77.png";
+module.exports="/sass.41125701.png";
 },{}],34:[function(require,module,exports) {
-module.exports="/photoshop-plain.0928b997.png";
+module.exports="/css.93ebbcd3.png";
 },{}],35:[function(require,module,exports) {
-module.exports="/sketch-line.dd84d6aa.png";
+module.exports="/html5.06146883.png";
 },{}],36:[function(require,module,exports) {
+module.exports="/nodejs-icon.3d165122.png";
+},{}],37:[function(require,module,exports) {
+module.exports="/express-original.ced93f1f.png";
+},{}],38:[function(require,module,exports) {
+module.exports="/mongodb-plain.c1ef927c.png";
+},{}],39:[function(require,module,exports) {
+module.exports="/mocha-plain.a0a956c1.png";
+},{}],40:[function(require,module,exports) {
+module.exports="/travisci.c4bc0a02.png";
+},{}],41:[function(require,module,exports) {
+module.exports="/illustrator-plain.143daf77.png";
+},{}],42:[function(require,module,exports) {
+module.exports="/photoshop-plain.0928b997.png";
+},{}],43:[function(require,module,exports) {
+module.exports="/sketch-line.dd84d6aa.png";
+},{}],44:[function(require,module,exports) {
 module.exports="/figma.ec4b4a9f.png";
-},{}],16:[function(require,module,exports) {
+},{}],27:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10908,7 +10908,7 @@ exports.illustratorIcon = _illustratorPlain2.default;
 exports.photoshopIcon = _photoshopPlain2.default;
 exports.sketchIcon = _sketchLine2.default;
 exports.figmaIcon = _figma2.default;
-},{"../img/react.png":20,"../img/redux.png":21,"../img/js.png":22,"../img/jquery.png":23,"../img/git.png":24,"../img/sass.png":25,"../img/css.png":26,"../img/html5.png":27,"../img/nodejs-icon.png":28,"../img/express-original.png":29,"../img/mongodb-plain.png":30,"../img/mocha-plain.png":31,"../img/travisci.png":32,"../img/illustrator-plain.png":33,"../img/photoshop-plain.png":34,"../img/sketch-line.png":35,"../img/figma.png":36}],13:[function(require,module,exports) {
+},{"../img/react.png":28,"../img/redux.png":29,"../img/js.png":30,"../img/jquery.png":31,"../img/git.png":32,"../img/sass.png":33,"../img/css.png":34,"../img/html5.png":35,"../img/nodejs-icon.png":36,"../img/express-original.png":37,"../img/mongodb-plain.png":38,"../img/mocha-plain.png":39,"../img/travisci.png":40,"../img/illustrator-plain.png":41,"../img/photoshop-plain.png":42,"../img/sketch-line.png":43,"../img/figma.png":44}],14:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -10924,15 +10924,15 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 
 function loadAbout() {
   $('.wrap').remove();
-  $('.content').append('\n<div class="wrap one">\n  <div class="about-wrapper">\n    <h1>About</h1>\n    <div class="profile-pic"></div>\n    <p> I\'m a MERN stack developer and an emerging web tech enthusiast. Any time\n      there\'s an update in a language or framework I\'m there watching the demos,\n      taking notes, and thinking of what I can build next. If I\'m not building\n      something in my spare time, I\'m either reading or binging netflix.\n    </p>\n  </div>\n  <div class="lang-grid">\n    <ul class="icon-list">\n      <div class="front-end">\n        <h3>Front End</h3>\n        <li>\n          <img src=' + icon.reactIcon + ' alt="" class="l-icon" />\n          <p>React</p>\n        </li>\n        <li>\n          <img src=' + icon.reduxIcon + ' alt="" class="l-icon" />\n          <p>Redux</p>\n        </li>\n        <li>\n          <img src=' + icon.jsIcon + ' alt="" class="l-icon" />\n          <p>JavaScript</p>\n        </li>\n        <li>\n          <img src=' + icon.jqueryIcon + ' alt="" class="l-icon" />\n          <p>jQuery</p>\n        </li>\n        <li>\n          <img src=' + icon.gitIcon + ' alt="" class="l-icon" />\n          <p>Git</p>\n        </li>\n        <li>\n          <img src=' + icon.sassIcon + ' alt="" class="l-icon" />\n          <p>Sass</p>\n        </li>\n        <li>\n          <img src=' + icon.cssIcon + ' alt="" class="l-icon" />\n          <p>CSS3</p>\n        </li>\n        <li>\n          <img src=' + icon.htmlIcon + ' alt="" class="l-icon" />\n          <p>HTML5</p>\n        </li>\n      </div>\n      <div class="back-end">\n        <h3>Back End</h3>\n        <li>\n          <img src=' + icon.nodeIcon + ' alt="" class="l-icon" />\n          <p>Node</p>\n        </li>\n        <li>\n          <img src=' + icon.expressIcon + ' alt="" class="l-icon" />\n          <p>Express</p>\n        </li>\n        <li>\n          <img src=' + icon.mongoDbIcon + ' alt="" class="l-icon leaf" />\n          <p>MongoDb</p>\n        </li>\n        <li>\n          <img src=' + icon.mochaIcon + ' alt="" class="l-icon" />\n          <p>Mocha</p>\n        </li>\n        <li>\n          <img src=' + icon.travisIcon + ' alt="" class="l-icon" />\n          <p>Travis CI</p>\n        </li>\n      </div>\n      <div class="design-tools">\n        <div class="break"></div>\n        <h3>Design Tools</h3>\n        <li>\n          <img src=' + icon.illustratorIcon + ' alt="" class="l-icon" />\n          <p>illustrator</p>\n        </li>\n        <li>\n          <img src=' + icon.photoshopIcon + ' alt="" class="l-icon" />\n          <p>Photoshop</p>\n        </li>\n        <li>\n          <img src=' + icon.sketchIcon + ' alt="" class="l-icon" />\n          <p>Sketch</p>\n        </li>\n        <li>\n          <img src=' + icon.figmaIcon + ' alt="" class="l-icon" />\n          <p>Figma</p>\n        </li>\n      </div>\n    </ul>\n  </div>\n</div>\n  ');
+  $('.content').append('\n<div class="wrap one">\n  <div class="about-wrapper">\n    <h1>About</h1>\n    <div class="profile-pic"></div>\n    <p> I\'m a MERN stack developer and an emerging web tech enthusiast. Any time \n      there\'s an update in a language or framework I\'m there watching the demos, \n      taking notes, and thinking of what I can build next. Building often lends\n      itself to taking part in discussion channels, or working in groups with \n      other developers which makes the whole process that much more fun for me.\n      If I\'m not working on anything I like to play some games online or\n      read, maybe indulge in a few table top games if the late-night gods are\n      merciful.\n    </p>\n  </div>\n  <div class="lang-grid">\n    <ul class="icon-list">\n      <div class="front-end">\n        <h3>Front End</h3>\n        <li>\n          <img src=' + icon.reactIcon + ' alt="" class="l-icon" />\n          <p>React</p>\n        </li>\n        <li>\n          <img src=' + icon.reduxIcon + ' alt="" class="l-icon" />\n          <p>Redux</p>\n        </li>\n        <li>\n          <img src=' + icon.jsIcon + ' alt="" class="l-icon" />\n          <p>JavaScript</p>\n        </li>\n        <li>\n          <img src=' + icon.jqueryIcon + ' alt="" class="l-icon" />\n          <p>jQuery</p>\n        </li>\n        <li>\n          <img src=' + icon.gitIcon + ' alt="" class="l-icon" />\n          <p>Git</p>\n        </li>\n        <li>\n          <img src=' + icon.sassIcon + ' alt="" class="l-icon" />\n          <p>Sass</p>\n        </li>\n        <li>\n          <img src=' + icon.cssIcon + ' alt="" class="l-icon" />\n          <p>CSS3</p>\n        </li>\n        <li>\n          <img src=' + icon.htmlIcon + ' alt="" class="l-icon" />\n          <p>HTML5</p>\n        </li>\n      </div>\n      <div class="back-end">\n        <h3>Back End</h3>\n        <li>\n          <img src=' + icon.nodeIcon + ' alt="" class="l-icon" />\n          <p>Node</p>\n        </li>\n        <li>\n          <img src=' + icon.expressIcon + ' alt="" class="l-icon" />\n          <p>Express</p>\n        </li>\n        <li>\n          <img src=' + icon.mongoDbIcon + ' alt="" class="l-icon leaf" />\n          <p>MongoDb</p>\n        </li>\n        <li>\n          <img src=' + icon.mochaIcon + ' alt="" class="l-icon" />\n          <p>Mocha</p>\n        </li>\n        <li>\n          <img src=' + icon.travisIcon + ' alt="" class="l-icon" />\n          <p>Travis CI</p>\n        </li>\n      </div>\n      <div class="design-tools">\n        <div class="break"></div>\n        <h3>Design Tools</h3>\n        <li>\n          <img src=' + icon.illustratorIcon + ' alt="" class="l-icon" />\n          <p>illustrator</p>\n        </li>\n        <li>\n          <img src=' + icon.photoshopIcon + ' alt="" class="l-icon" />\n          <p>Photoshop</p>\n        </li>\n        <li>\n          <img src=' + icon.sketchIcon + ' alt="" class="l-icon" />\n          <p>Sketch</p>\n        </li>\n        <li>\n          <img src=' + icon.figmaIcon + ' alt="" class="l-icon" />\n          <p>Figma</p>\n        </li>\n      </div>\n    </ul>\n  </div>\n</div>\n  ');
 }
-},{"./abouticons":16}],40:[function(require,module,exports) {
+},{"./abouticons":27}],23:[function(require,module,exports) {
 module.exports="/github.91c7a472.png";
-},{}],41:[function(require,module,exports) {
+},{}],24:[function(require,module,exports) {
 module.exports="/linkedin-plain.b3478026.png";
-},{}],42:[function(require,module,exports) {
+},{}],25:[function(require,module,exports) {
 module.exports="/slack-plain.fdb4b4f4.png";
-},{}],43:[function(require,module,exports) {
+},{}],26:[function(require,module,exports) {
 module.exports="/twitter-original.eb7f2e38.png";
 },{}],18:[function(require,module,exports) {
 'use strict';
@@ -10964,7 +10964,7 @@ exports.githubIcon = _github2.default;
 exports.linkedinIcon = _linkedinPlain2.default;
 exports.slackIcon = _slackPlain2.default;
 exports.twitterIcon = _twitterOriginal2.default;
-},{"../img/github.png":40,"../img/linkedin-plain.png":41,"../img/slack-plain.png":42,"../img/twitter-original.png":43}],15:[function(require,module,exports) {
+},{"../img/github.png":23,"../img/linkedin-plain.png":24,"../img/slack-plain.png":25,"../img/twitter-original.png":26}],15:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -11027,7 +11027,7 @@ function menuToggle() {
     }
   });
 }
-},{"./home":5,"./about":13,"./projects":14,"./contact":15}],8:[function(require,module,exports) {
+},{"./home":5,"./about":14,"./projects":13,"./contact":15}],8:[function(require,module,exports) {
 /* Web Font Loader v1.6.28 - (c) Adobe Systems, Google. License: Apache 2.0 */(function(){function aa(a,b,c){return a.call.apply(a.bind,arguments)}function ba(a,b,c){if(!a)throw Error();if(2<arguments.length){var d=Array.prototype.slice.call(arguments,2);return function(){var c=Array.prototype.slice.call(arguments);Array.prototype.unshift.apply(c,d);return a.apply(b,c)}}return function(){return a.apply(b,arguments)}}function p(a,b,c){p=Function.prototype.bind&&-1!=Function.prototype.bind.toString().indexOf("native code")?aa:ba;return p.apply(null,arguments)}var q=Date.now||function(){return+new Date};function ca(a,b){this.a=a;this.o=b||a;this.c=this.o.document}var da=!!window.FontFace;function t(a,b,c,d){b=a.c.createElement(b);if(c)for(var e in c)c.hasOwnProperty(e)&&("style"==e?b.style.cssText=c[e]:b.setAttribute(e,c[e]));d&&b.appendChild(a.c.createTextNode(d));return b}function u(a,b,c){a=a.c.getElementsByTagName(b)[0];a||(a=document.documentElement);a.insertBefore(c,a.lastChild)}function v(a){a.parentNode&&a.parentNode.removeChild(a)}
 function w(a,b,c){b=b||[];c=c||[];for(var d=a.className.split(/\s+/),e=0;e<b.length;e+=1){for(var f=!1,g=0;g<d.length;g+=1)if(b[e]===d[g]){f=!0;break}f||d.push(b[e])}b=[];for(e=0;e<d.length;e+=1){f=!1;for(g=0;g<c.length;g+=1)if(d[e]===c[g]){f=!0;break}f||b.push(d[e])}a.className=b.join(" ").replace(/\s+/g," ").replace(/^\s+|\s+$/,"")}function y(a,b){for(var c=a.className.split(/\s+/),d=0,e=c.length;d<e;d++)if(c[d]==b)return!0;return!1}
 function ea(a){return a.o.location.hostname||a.a.location.hostname}function z(a,b,c){function d(){m&&e&&f&&(m(g),m=null)}b=t(a,"link",{rel:"stylesheet",href:b,media:"all"});var e=!1,f=!0,g=null,m=c||null;da?(b.onload=function(){e=!0;d()},b.onerror=function(){e=!0;g=Error("Stylesheet failed to load");d()}):setTimeout(function(){e=!0;d()},0);u(a,"head",b)}
@@ -11078,7 +11078,7 @@ var WebFont = require('webfontloader');
   (0, _home2.default)();
   (0, _nav2.default)();
 });
-},{"jquery":6,"normalize.css":7,"./src/css/index.css":3,"./src/js/nav":4,"./src/js/home":5,"webfontloader":8}],47:[function(require,module,exports) {
+},{"jquery":7,"normalize.css":6,"./src/css/index.css":3,"./src/js/nav":4,"./src/js/home":5,"webfontloader":8}],45:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -11108,7 +11108,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '62009' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '52528' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -11247,5 +11247,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[47,2])
+},{}]},{},[45,2])
 //# sourceMappingURL=/portfolio-c.933c7317.map
