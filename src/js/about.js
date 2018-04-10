@@ -9,12 +9,11 @@ export default function loadAbout() {
     <div class="profile-pic"></div>
     <p> I'm a MERN stack developer and an emerging web tech enthusiast. Any time 
       there's an update in a language or framework I'm there watching the demos, 
-      taking notes, and thinking of what I can build next. Building often lends
-      itself to taking part in discussion channels, or working in groups with 
-      other developers which makes the whole process that much more fun for me.
-      If I'm not working on anything I like to play some games online or
-      read, maybe indulge in a few table top games if the late-night gods are
-      merciful.
+      taking notes, and thinking of what to build next. Building lends
+      itself participating in discussion channels, or working in groups with 
+      other developers which is exciting. If I'm not working on anything I 
+      like to play some games online or read, maybe indulge in a few table 
+      top games!
     </p>
   </div>
   <div class="lang-grid">
