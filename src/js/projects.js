@@ -24,7 +24,7 @@ export default function loadProjects() {
       </div>
       <div class="project two">
         <h3>Minion Manager</h3>
-        <a href="https://sheltered-coast-97878.herokuapp.com/" target="_blank">
+        <a href="https://minion-manager.herokuapp.com/" target="_blank">
           <div class ="preview">
             <p>View Project</p>
           </div>
@@ -33,7 +33,7 @@ export default function loadProjects() {
         <div class ="demo-links">
           <a href="https://github.com/mosef/minionmanager" target="_blank">Github</a>
           <span>|</span>
-          <a href="https://sheltered-coast-97878.herokuapp.com/" target="_blank">Demo</a>
+          <a href="https://minion-manager.herokuapp.com/" target="_blank">Demo</a>
         </div>
         <p> An Express app that helps table top hosts keep track of relevant player
         data while preventing players from editing the data between sessions.

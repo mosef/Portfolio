@@ -7,7 +7,7 @@
 		"uuidString": "461CEF48-53F0-404D-A2C9-9EF48865BA3B"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.cache\/049930eddb44f03cb0121b0abc0c120b.json": {
 		"ft": 524288,
@@ -1482,6 +1482,7 @@
 	"\/src\/img\/profile.jpg": {
 		"ft": 16384,
 		"iS": 23366,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/src\/img\/profile.jpg",
 		"oF": 0,
@@ -1692,7 +1693,8 @@
 	"creationDate": 543381266,
 	"displayValue": "portfolio-c",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-owl"
+	"iconImageName": "\/favicons\/apple-touch-icon-120x120.png",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3495,6 +3497,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
