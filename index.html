@@ -1,60 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="">
-  <title>Mosef Asad Portfolio</title>
-  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./favicons/apple-touch-icon-57x57.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./favicons/apple-touch-icon-114x114.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./favicons/apple-touch-icon-72x72.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./favicons/apple-touch-icon-144x144.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="./favicons/apple-touch-icon-60x60.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./favicons/apple-touch-icon-120x120.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./favicons/apple-touch-icon-76x76.png" />
-  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./favicons/apple-touch-icon-152x152.png" />
-  <link rel="icon" type="image/png" href="./favicons/favicon-196x196.png" sizes="196x196" />
-  <link rel="icon" type="image/png" href="./favicons/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/png" href="./favicons/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="./favicons/favicon-16x16.png" sizes="16x16" />
-  <link rel="icon" type="image/png" href="./favicons/favicon-128.png" sizes="128x128" />
-  <meta name="application-name" content="&nbsp;"/>
-  <meta name="msapplication-TileColor" content="#FFFFFF" />
-  <meta name="msapplication-TileImage" content="./favicons/mstile-144x144.png" />
-  <meta name="msapplication-square70x70logo" content="./favicons/mstile-70x70.png" />
-  <meta name="msapplication-square150x150logo" content="./favicons/mstile-150x150.png" />
-  <meta name="msapplication-wide310x150logo" content="./favicons/mstile-310x150.png" />
-  <meta name="msapplication-square310x310logo" content="./favicons/mstile-310x310.png" />
-
+  <title>Mosef Asad - Portfolio</title>
+  <link rel="stylesheet" href="./src/css/index.css">
 </head>
 
 <body>
-  <div class="container">
-    <div class="header-container"></div>
-    <main role="main">
-      <nav role="navigation">
-        <ul class="nav-list">
-          <li>
-            <a href="#" id="home">Home</a>
-          </li>
-          <li>
-            <a href="#" id="about">About</a>
-          </li>
-          <li>
-            <a href="#" id="projects">Projects</a>
-          </li>
-          <li>
-            <a href="#" id="contact">Contact</a>
-          </li>
+<!-- star particles -->
+<div class="particles">
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+</div>
+
+<div class="content-wrapper">
+  <header>
+    <div class="container">
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <div class="content">
-      </div>
-    </main>
-  </div>
-  <script type="module" src="./index.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-</body>
+    </div>
+  </header>
 
+  <main>
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">Hello, I'm Mosef Asad 👋</h2>
+        <div class="about-content">
+          <p>I'm a senior React and React Native developer with 7 years of experience building enterprise-level applications using TypeScript and comprehensive testing practices.</p>
+          <p>I take full ownership of projects from architecture to deployment, collaborating closely with design and product teams while staying eager to learn new frameworks, languages, and technologies.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <h4>Frontend & Mobile</h4>
+            <p>React & React Native, TypeScript, SCSS / Styled Components, Expo</p>
+          </div>
+          <div class="skill-item">
+            <h4>State & Data</h4>
+            <p>Tanstack Query, GraphQL, Apollo Server, AsyncStorage</p>
+          </div>
+          <div class="skill-item">
+            <h4>Forms & Validation</h4>
+            <p>React Hook Form, Yup validation</p>
+          </div>
+          <div class="skill-item">
+            <h4>Development Tools</h4>
+            <p>Storybook, Reactotron, Git, Fastlane</p>
+          </div>
+          <div class="skill-item">
+            <h4>Testing</h4>
+            <p>Detox + Jest, React Testing Library</p>
+          </div>
+          <div class="skill-item">
+            <h4>Backend & Database</h4>
+            <p>Node, Express, MongoDB</p>
+          </div>
+          <div class="skill-item">
+            <h4>Services & Design</h4>
+            <p>Firebase, App Center, Figma</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-info">
+          <p>I'm always interested in new opportunities and collaborations. Whether you have a project in mind or just want to say hello, I'd love to hear from you.</p>
+          <div class="contact-links">
+            <a href="mailto:hello@mosefasad.com">Email</a>
+            <a href="https://linkedin.com/in/mosefasad" target="_blank">LinkedIn</a>
+            <a href="https://github.com/mosefasad" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Mosef Asad. All rights reserved.</p>
+    </div>
+  </footer>
+</div>
+</body>
 </html>

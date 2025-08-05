@@ -4,8 +4,7 @@
   "description": "",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -17,16 +16,7 @@
     "url": "https://github.com/mosef/Portfolio/issues"
   },
   "homepage": "https://github.com/mosef/Portfolio#readme",
-  "dependencies": {
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "jquery": "^3.3.1",
-    "normalize.css": "^8.0.0",
-    "webfontloader": "^1.6.28"
-  },
   "devDependencies": {
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-babel": "^4.1.2",
-    "eslint-plugin-import": "^2.9.0",
     "parcel": "^2.15.4"
   }
 }
