@@ -1,17 +1,15 @@
-This is the front end for my Portfolio
-
 <h1>Mosef Asad's Portfolio</h1>
 <a href="https://www.mosefasad.com/">My Portfolio</a>
 
-<h2>Wireframes & Mockups</h2>
-<a href="https://www.figma.com/file/UtNNpiuxpTEgAvcs1Eef7YQU/Portfolio-Site">Design Board</a>
-<p>This project and it's art work were designed in Figma.</p>
-
 <h2>Technology</h2>
-<h3>Front End</h3>
-<ul>
-  <li>JavaScript</li>
-  <li>jQuery</li>
-  <li>HTML5</li>
-  <li>CSS Grid and written in SCSS (compiled in CodeKit)</li>
-</ul>
+<p>This project was built with performance and minimalism in mind. 
+That meant pure HTML and CSS. No Js, frameworks, or shiny new stuff. Here is a list of everything that went into this site:</p>
+<li>HTML</li>
+<li>CSS</li>
+<li>Parcel (bundler)</li>
+<li>Netlify (Build & Deploy tools including CICD integration with GitHub)</li>
+
+<h3>Results:</h3>
+<li>Final bundle size: ~8.59 kB </li>
+<li>Local build time: ~1.47s </li>
+<li>Average Netlify build and deploy time: ~26.7s</li>
