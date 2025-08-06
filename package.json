@@ -1,7 +1,7 @@
 {
-  "name": "portfolio-c",
-  "version": "1.0.0",
-  "description": "",
+  "name": "mosef-asad-portfolio",
+  "version": "2.0.0",
+  "description": "A web portfolio",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/mosef/Portfolio.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "mosef asad",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mosef/Portfolio/issues"
   },
